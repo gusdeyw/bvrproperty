@@ -70,6 +70,7 @@
             <div class="swiper-pagination"></div>
         </div>
     </div>
+    <!-- Property List -->
     <div class="mx-auto w-9/12 mt-7">
         <div class="flex my-3">
             <p class="flex-none pr-6 font-bold">PROPERTY LIST</p>
@@ -79,7 +80,61 @@
             </svg>
         </div>
         <!-- Search -->
-        <?php include 'layout/search.php' ?>
+        <!-- Form 1 -->
+        <div class="flex">
+            <!-- Form Search -->
+            <input class="border-2 border-gray-300 bg-white h-10 px-4 pr-16 text-sm focus:outline-none w-5/12" type="search" name="search" placeholder="Search">
+            <!-- Dropdown Region -->
+            <select class="ml-5 px-4 border-gray-300 border-2">
+                <option>Region</option>
+                <option>Sample</option>
+                <option>Sample</option>
+            </select>
+            <!-- Dropdown Property -->
+            <select class="ml-5 px-4 border-gray-300 border-2">
+                <option>Property Type</option>
+                <option>Sample</option>
+                <option>Sample</option>
+            </select>
+            <!-- Dropdown MinBedroom -->
+            <select class="ml-5 px-4 border-gray-300 border-2">
+                <option>Min Bedroom</option>
+                <option>Sample</option>
+                <option>Sample</option>
+            </select>
+            <!-- Dropdown Max Bed -->
+            <select class="px-4 border-gray-300 border-2">
+                <option>Max Bedroom</option>
+                <option>Sample</option>
+                <option>Sample</option>
+            </select>
+        </div>
+        <!-- Form 2 -->
+        <div class="flex mt-3 h-10">
+            <!-- Dropdown MinPrice -->
+            <select class="px-4 border-gray-300 border-2">
+                <option>Min Price</option>
+                <option>Sample</option>
+                <option>Sample</option>
+            </select>
+            <!-- Dropdown MaxPrice -->
+            <select class="px-4 border-gray-300 border-2">
+                <option>Max Price</option>
+                <option>Sample</option>
+                <option>Sample</option>
+            </select>
+            <!-- Dropdown Are -->
+            <select class="ml-5 px-4 border-gray-300 border-2">
+                <option>Are</option>
+                <option>Sample</option>
+                <option>Sample</option>
+            </select>
+            <input type='text' placeholder="Min. Area" class="border-2 border-gray-300 bg-white h-10 px-4 text-sm  w-2/12">
+            <input type='text' placeholder="Max. Area" class="border-2 border-gray-300 bg-white h-10 px-4 text-sm  w-2/12">
+            <button class="ml-3 border-2 border-red-700 bg-red-500 hover:bg-red-600 text-white h-10 text-center text-base w-1/12">
+                Search
+            </button>
+        </div>
         <!-- Result -->
         <div class="grid grid-cols-3 gap-10 my-10">
             <div class="bg-white filter drop-shadow-lg border-2 hover:border-red-600">

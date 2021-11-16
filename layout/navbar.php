@@ -1,4 +1,4 @@
-<div class="fixed w-full text-gray-700 bg-black z-50 shadow-md">
+<div class="fixed w-full bg-black z-50 shadow-md">
   <div x-data="{ open: false }" class="flex flex-col max-w-screen-xl px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-14">
     <div class="p-3 flex flex-row items-center justify-between">
       <a href="index.php"><img class="h-10" src="/public/images/logo.png" alt="BVR Property"></a>
@@ -88,7 +88,7 @@
           <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
         </svg>
       </button>
-      <ul class="dropdown-menu absolute hidden w-28 text-white pt-1">
+      <ul class="dropdown-menu absolute hidden w-20 text-white pt-1">
         <li class=""><a class="rounded bg-gray-900 hover:bg-red-600 py-2 px-4 block whitespace-no-wrap" id="">USD</a></li>
       </ul>
     </div>
