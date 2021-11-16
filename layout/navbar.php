@@ -13,83 +13,83 @@
       <a class="text-white px-4 py-2 mt-2 text-sm sm:text-base font-normal bg-transparent rounded dark-mode:bg-transparent md:mt-0 hover:bg-red-600" href="/index.php">Home</a>
       <!-- Rental -->
       <div class="dropdown inline-block relative">
-        <button class=" text-white hover:bg-red-600  py-2 px-4 rounded inline-flex items-center">
+        <button class=" text-white hover:bg-bvr2  py-2 px-4 rounded inline-flex items-center">
           <span class="mr-1">Rental</span>
           <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
             <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
           </svg>
         </button>
         <ul class="dropdown-menu absolute hidden w-40 text-white pt-1">
-          <li class=""><a class="rounded-t  bg-gray-900 hover:bg-red-600 py-2 px-4 block whitespace-no-wrap" href="#">Yearly</a></li>
-          <li class=""><a class="rounded-b bg-gray-900  hover:bg-red-600 py-2 px-4 block whitespace-no-wrap" href="#">Monthly</a></li>
+          <li class=""><a class="rounded-t  bg-gray-900 hover:bg-bvr2 py-2 px-4 block whitespace-no-wrap" href="#">Yearly</a></li>
+          <li class=""><a class="rounded-b bg-gray-900  hover:bg-bvr2 py-2 px-4 block whitespace-no-wrap" href="#">Monthly</a></li>
         </ul>
       </div>
       <!-- Villa -->
       <div class="dropdown inline-block relative">
-        <button class=" text-white hover:bg-red-600 py-2 px-4 rounded inline-flex items-center">
+        <button class=" text-white hover:bg-bvr2 py-2 px-4 rounded inline-flex items-center">
           <span class="mr-1">Villa</span>
           <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
             <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
           </svg>
         </button>
         <ul class="dropdown-menu absolute hidden w-28 text-white pt-1">
-          <li class=""><a class="rounded-t  bg-gray-900 hover:bg-red-600 py-2 px-4 block whitespace-no-wrap" href="#">Leasehold</a></li>
-          <li class=""><a class="rounded-b bg-gray-900  hover:bg-red-600 py-2 px-4 block whitespace-no-wrap" href="#">Freehold</a></li>
+          <li class=""><a class="rounded-t  bg-gray-900 hover:bg-bvr2 py-2 px-4 block whitespace-no-wrap" href="#">Leasehold</a></li>
+          <li class=""><a class="rounded-b bg-gray-900  hover:bg-bvr2 py-2 px-4 block whitespace-no-wrap" href="#">Freehold</a></li>
         </ul>
       </div>
       <!-- Land -->
       <div class="dropdown  md:inline-block relative">
-        <button class=" text-white hover:bg-red-600 py-2 px-4 rounded inline-flex items-center">
+        <button class=" text-white hover:bg-bvr2 py-2 px-4 rounded inline-flex items-center">
           <span class="mr-1">Land</span>
           <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
             <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
           </svg>
         </button>
         <ul class="dropdown-menu absolute hidden w-28 text-white pt-1">
-          <li class=""><a class="rounded-t  bg-gray-900 hover:bg-red-600 py-2 px-4 block whitespace-no-wrap" href="#">Leasehold</a></li>
-          <li class=""><a class="rounded-b bg-gray-900  hover:bg-red-600 py-2 px-4 block whitespace-no-wrap" href="#">Freehold</a></li>
+          <li class=""><a class="rounded-t  bg-gray-900 hover:bg-bvr2 py-2 px-4 block whitespace-no-wrap" href="#">Leasehold</a></li>
+          <li class=""><a class="rounded-b bg-gray-900  hover:bg-bvr2 py-2 px-4 block whitespace-no-wrap" href="#">Freehold</a></li>
         </ul>
       </div>
       <!-- About Us -->
       <div class="dropdown inline-block relative">
-        <button class=" text-white hover:bg-red-600 py-2 px-4 rounded inline-flex items-center">
+        <button class=" text-white hover:bg-bvr2 py-2 px-4 rounded inline-flex items-center">
           <span class="mr-1">About Us</span>
           <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
             <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
           </svg>
         </button>
         <ul class="dropdown-menu absolute hidden w-56 text-white pt-1">
-          <li class=""><a class="rounded-t  bg-gray-900 hover:bg-red-600 py-2 px-4 block" href="#">Meet the expert</a></li>
-          <li class=""><a class="bg-gray-900 hover:bg-red-600 py-2 px-4 block" href="#">FAQs Pages</a></li>
-          <li class=""><a class="bg-gray-900 hover:bg-red-600 py-2 px-4 block" href="#">Testimonials</a></li>
-          <li class=""><a class="bg-gray-900 hover:bg-red-600 py-2 px-4 block" href="#">Francising, Licensing & Partership</a></li>
-          <li class=""><a class="rounded-b bg-gray-900  hover:bg-red-600 py-2 px-4 block" href="#">Contact Us</a></li>
+          <li class=""><a class="rounded-t  bg-gray-900 hover:bg-bvr2 py-2 px-4 block" href="#">Meet the expert</a></li>
+          <li class=""><a class="bg-gray-900 hover:bg-bvr2 py-2 px-4 block" href="#">FAQs Pages</a></li>
+          <li class=""><a class="bg-gray-900 hover:bg-bvr2 py-2 px-4 block" href="#">Testimonials</a></li>
+          <li class=""><a class="bg-gray-900 hover:bg-bvr2 py-2 px-4 block" href="#">Francising, Licensing & Partership</a></li>
+          <li class=""><a class="rounded-b bg-gray-900  hover:bg-bvr2 py-2 px-4 block" href="#">Contact Us</a></li>
         </ul>
       </div>
       <a class="text-white px-4 py-2 mt-2 text-sm sm:text-base font-normal bg-transparent rounded dark-mode:bg-transparent md:mt-0 hover:bg-red-600" href="/index.php">Blog</a>
       <!-- Land -->
       <div class="md:hidden dropdown inline-block relative md:justify-end">
-        <button class=" text-white hover:bg-red-600 py-2 px-4 rounded inline-flex items-center">
+        <button class=" text-white hover:bg-bvr2 py-2 px-4 rounded inline-flex items-center">
           <span class="mr-1">IDR</span>
           <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
             <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
           </svg>
         </button>
         <ul class="dropdown-menu absolute hidden w-28 text-white pt-1">
-          <li class=""><a class="rounded bg-gray-900 hover:bg-red-600 py-2 px-4 block whitespace-no-wrap" href="#">USD</a></li>
+          <li class=""><a class="rounded bg-gray-900 hover:bg-bvr2 py-2 px-4 block whitespace-no-wrap" href="#">USD</a></li>
         </ul>
       </div>
     </nav>
     <!-- Land -->
     <div class="hidden dropdown md:inline-block relative md:justify-end">
-      <button class=" text-white hover:bg-red-600 py-2 px-4 rounded inline-flex items-center">
+      <button class=" text-white hover:bg-bvr2 py-2 px-4 rounded inline-flex items-center">
         <span class="mr-1">IDR</span>
         <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
           <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
         </svg>
       </button>
       <ul class="dropdown-menu absolute hidden w-20 text-white pt-1">
-        <li class=""><a class="rounded bg-gray-900 hover:bg-red-600 py-2 px-4 block whitespace-no-wrap" id="">USD</a></li>
+        <li class=""><a class="rounded bg-gray-900 hover:bg-bvr2 py-2 px-4 block whitespace-no-wrap" id="">USD</a></li>
       </ul>
     </div>
   </div>

@@ -102,8 +102,8 @@
             </div>
         </div> -->
         <!-- Swiper JS  -->
-        <div class="h-97 ">
-            <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="mt-10 swiper mySwiper2">
+        <div class="h-97 mb-4">
+            <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="mt-5 swiper mySwiper2">
                 <div class=" swiper-wrapper">
                     <div class="swiper-slide">
                         <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
@@ -140,9 +140,9 @@
                 <div class="swiper-button-prev"></div>
             </div>
         </div>
-        <div class="h-48">
+        <div class="h-40">
             <div thumbsSlider="" class="swiper mySwiper">
-                <div class="swiper-wrapper">
+                <div class="swiper-wrapper gap-7">
                     <div class="swiper-slide">
                         <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
                     </div>
@@ -188,6 +188,7 @@
             </svg>
         </div>
         <div class="grid grid-cols-7 gap-5">
+            <!-- Property Desc -->
             <div class="col-span-4">
                 <div class="">
                     <p class="font-bold mb-3">PROPERTY DESCRIPTION</p>
@@ -206,14 +207,159 @@
                 </div>
 
             </div>
+            <!-- Property Details -->
             <div class="col-span-3 w-full">
                 <div>
-                    <p class="font-bold mb-3">PROPERTY DESCRIPTION</p>
+                    <p class="font-bold mb-3">PROPERTY DETAILS</p>
                     <p class="text-justify">CHARMING BRAND NEW VILLA</p>
-                    <div class="bg-white p-1">
-                        <div>
+                    <div class="bg-white py-1 px-2">
+                        <div class="flex w-full">
+                            <p class="w-full">Ref ID :</p>
+                            <p class="w-full font-semibold flex justify-end">PPR2790</p>
+                        </div>
+                        <div class="flex w-full">
+                            <p class="w-full">Area :</p>
+                            <p class="w-full font-semibold flex justify-end">Canggu</p>
+                        </div>
+                        <div class="flex w-full">
+                            <p class="w-full">Listing Type :</p>
+                            <p class="w-full font-semibold flex justify-end">For Rent</p>
+                        </div>
+                        <div class="flex w-full">
+                            <p class="w-full">Property Type :</p>
+                            <p class="w-full font-semibold flex justify-end">Yearly Rental</p>
+                        </div>
+                        <div class="flex w-full">
+                            <p class="w-full">Building Size :</p>
+                            <p class="w-full font-semibold text-right">350 m<sup>2</sup></p>
+                        </div>
+                        <div class="flex w-full">
+                            <p class="w-full">Land Size :</p>
+                            <p class="w-full font-semibold flex justify-end">8 Are</p>
+                        </div>
+                        <div class="flex w-full">
+                            <p class="w-full">Price :</p>
+                            <p class="w-full font-semibold flex justify-end">IDR500,000,000 Yearly</p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <!-- Property Facility -->
+            <div class="col-span-4">
+                <div class="">
+                    <p class="font-bold mb-3">PROPERTY FACILITY</p>
+                    <div class="px-3 py-2 grid grid-cols-7 gap-4 bg-white">
+                        <div class="col-span-4">
+                            <div class="flex w-full">
+                                <div class="w-8 text-bvr2"><i class="fas fa-fan"></i></div>
+                                <p>Air Conditioner</p>
+                            </div>
+                        </div>
+                        <div class="col-span-3">
+                            <div class="flex w-full">
+                                <div class="w-8 text-bvr2"><i class="fas fa-tv"></i></div>
+                                <p>Cable TV</p>
+                            </div>
+                        </div>
+                        <div class="col-span-4">
+                            <div class="flex w-full">
+                                <div class="w-8 text-bvr2"><i class="fas fa-utensils"></i></div>
+                                <p>Dining Area</p>
+                            </div>
+                        </div>
+                        <div class="col-span-3">
+                            <div class="flex w-full">
+                                <div class="w-8 text-bvr2"><i class="fas fa-plug"></i></div>
+                                <p>Electricity</p>
+                            </div>
+                        </div>
+                        <div class="col-span-4">
+                            <div class="flex w-full">
+                                <div class="w-8 text-bvr2"><i class="fas fa-warehouse"></i></div>
+                                <p>Garage</p>
+                            </div>
+                        </div>
+                        <div class="col-span-3">
+                            <div class="flex w-full">
+                                <div class="w-8 text-bvr2"><i class="fas fa-home"></i></div>
+                                <p>Gazebo</p>
+                            </div>
+                        </div>
+                        <div class="col-span-4">
+                            <div class="flex w-full">
+                                <div class="w-8 text-bvr2"><i class="fas fa-globe"></i></div>
+                                <p>Internet</p>
+                            </div>
+                        </div>
+                        <div class="col-span-3">
+                            <div class="flex w-full">
+                                <div class="w-8 text-bvr2"><i class="far fa-hat-chef"></i></div>
+                                <p>Kitchen</p>
+                            </div>
+                        </div>
+                        <div class="col-span-4">
+                            <div class="flex w-full">
+                                <div class="w-8 text-bvr2"><i class="fas fa-level-up-alt"></i></div>
+                                <p>Level</p>
+                            </div>
+                        </div>
+                        <div class="col-span-3">
+                            <div class="flex w-full">
+                                <div class="w-8 text-bvr2"><i class="fas fa-swimmer"></i></div>
+                                <p>Pool</p>
+                            </div>
+                        </div>
+                        <div class="col-span-4">
+                            <div class="flex w-full">
+                                <div class="w-8 text-bvr2"><i class="fad fa-shield"></i></div>
+                                <p>Security</p>
+                            </div>
+                        </div>
+                        <div class="col-span-3">
+                            <div class="flex w-full">
+                                <div class="w-8 text-bvr2"><i class="fas fa-box"></i></div>
+                                <p>Storage</p>
+                            </div>
+                        </div>
+                        <div class="col-span-4">
+                            <div class="flex w-full">
+                                <div class="w-8 text-bvr2"><i class="fas fa-washer"></i></div>
+                                <p>Washer or Laundry</p>
+                            </div>
+                        </div>
+                        <div class="col-span-3">
+                            <div class="flex w-full">
+                                <div class="w-8 text-bvr2"><i class="fas fa-water"></i></div>
+                                <p>Water Resource</p>
+                            </div>
+                        </div>
+                        <div class="col-span-4">
+                            <div class="flex w-full">
+                                <div class="w-8 text-bvr2"><i class="fas fa-wifi"></i></div>
+                                <p>Wi-fi</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <!-- Property Contact -->
+            <div class="col-span-3 w-full">
+                <div>
+                    <p class="font-bold mb-2">PROPERTY CONTACT</p>
+                    <p class="text-justify"><strong>SALES AGENT:</strong> Ceri</p>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="col-span-1 w-full px-2 bg-white border-2 border-bvr2">
+
+                            <div class="w-full mx-auto">
+                                <p>Whatsapp</p>
+                            </div>
 
                         </div>
+                        
 
                     </div>
                 </div>

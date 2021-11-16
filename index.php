@@ -49,21 +49,21 @@
                 <div class="swiper-slide flex-col">
                     <img class="object-cover relative" src="public/images/tes.webp">
                     <div class="ml-auto">
-                        <p class="relative -mt-88 py-3 px-7 font-semibold bg-red-500 text-white">Exclusive</p>
+                        <p class="relative -mt-88 py-3 px-7 font-semibold bg-bvr2 text-white">Exclusive</p>
                     </div>
                 </div>
                 <!-- Slider 2 -->
                 <div class="swiper-slide flex-col">
                     <img class="object-cover relative " src="public/images/tes.webp">
                     <div class="ml-auto">
-                        <p class="relative -mt-88 py-3 px-7 font-semibold bg-red-500 text-white">Exclusive</p>
+                        <p class="relative -mt-88 py-3 px-7 font-semibold bg-bvr2 text-white">Exclusive</p>
                     </div>
                 </div>
                 <!-- Slider 3 -->
                 <div class="swiper-slide flex-col">
                     <img class="object-cover relative " src="public/images/tes.webp">
                     <div class="ml-auto">
-                        <p class="relative -mt-88 py-3 px-7 font-semibold bg-red-500 text-white">Exclusive</p>
+                        <p class="relative -mt-88 py-3 px-7 font-semibold bg-bvr2 text-white">Exclusive</p>
                     </div>
                 </div>
             </div>
@@ -131,13 +131,14 @@
             </select>
             <input type='text' placeholder="Min. Area" class="border-2 border-gray-300 bg-white h-10 px-4 text-sm  w-2/12">
             <input type='text' placeholder="Max. Area" class="border-2 border-gray-300 bg-white h-10 px-4 text-sm  w-2/12">
-            <button class="ml-3 border-2 border-red-700 bg-red-500 hover:bg-red-600 text-white h-10 text-center text-base w-1/12">
+            <button class="ml-3 border-2  bg-bvr2 hover:bg-bvr3 text-white h-10 text-center text-base w-1/12">
                 Search
             </button>
         </div>
         <!-- Result -->
         <div class="grid grid-cols-3 gap-10 my-10">
-            <div class="bg-white filter drop-shadow-lg border-2 hover:border-red-600">
+            <!-- Hasil 1 -->
+            <div class="bg-white filter drop-shadow-lg border-2 hover:border-bvr2 col-span-1">
                 <a href="page-detail.php" class="">
                     <div class="p-3">
                         <p class="font-semibold">CHARMING BRAND NEW VILLA</p>
@@ -167,6 +168,100 @@
                     <p class="p-4 text-right font-bold">IDR 123.000.000</p>
                 </a>
             </div>
+            <!-- Hasil 1 -->
+            <div class="bg-white filter drop-shadow-lg border-2 hover:border-bvr2 col-span-1">
+                <a href="page-detail.php" class="">
+                    <div class="p-3">
+                        <p class="font-semibold">CHARMING BRAND NEW VILLA</p>
+                        <p class="text-red-600">BLI1234</p>
+                    </div>
+                    <img class="object-cover h-56 w-full" src="public/images/search1.png">
+                    <div class="px-4 py-3 grid grid-cols-2 gap-3">
+                        <div class="flex">
+                            <div class="w-8">
+                                <i class="fas fa-map-marked-alt object-contain w-full h-full pr-2"></i>
+                            </div>
+                            <p class="text-sm h-full my-auto">Somewhere</p>
+                        </div>
+                        <div class="flex">
+                            <i class="fas fa-expand-arrows-alt w-8 pr-2"></i>
+                            <p class="text-sm">1230 Are</p>
+                        </div>
+                        <div class="flex">
+                            <i class="fas fa-home pr-2 w-8"></i>
+                            <p class="text-sm">Freehold</p>
+                        </div>
+                        <div class="flex">
+                            <i class="fas fa-bed pr-2 w-8"></i>
+                            <p class="text-sm">3 Bedroom</p>
+                        </div>
+                    </div>
+                    <p class="p-4 text-right font-bold">IDR 123.000.000</p>
+                </a>
+            </div>
+            <!-- Hasil 1 -->
+            <div class="bg-white filter drop-shadow-lg border-2 hover:border-bvr2 col-span-1">
+                <a href="page-detail.php" class="">
+                    <div class="p-3">
+                        <p class="font-semibold">CHARMING BRAND NEW VILLA</p>
+                        <p class="text-red-600">BLI1234</p>
+                    </div>
+                    <img class="object-cover h-56 w-full" src="public/images/search1.png">
+                    <div class="px-4 py-3 grid grid-cols-2 gap-3">
+                        <div class="flex">
+                            <div class="w-8">
+                                <i class="fas fa-map-marked-alt object-contain w-full h-full pr-2"></i>
+                            </div>
+                            <p class="text-sm h-full my-auto">Somewhere</p>
+                        </div>
+                        <div class="flex">
+                            <i class="fas fa-expand-arrows-alt w-8 pr-2"></i>
+                            <p class="text-sm">1230 Are</p>
+                        </div>
+                        <div class="flex">
+                            <i class="fas fa-home pr-2 w-8"></i>
+                            <p class="text-sm">Freehold</p>
+                        </div>
+                        <div class="flex">
+                            <i class="fas fa-bed pr-2 w-8"></i>
+                            <p class="text-sm">3 Bedroom</p>
+                        </div>
+                    </div>
+                    <p class="p-4 text-right font-bold">IDR 123.000.000</p>
+                </a>
+            </div>
+            <!-- Hasil 1 -->
+            <div class="bg-white filter drop-shadow-lg border-2 hover:border-bvr2 col-span-1">
+                <a href="page-detail.php" class="">
+                    <div class="p-3">
+                        <p class="font-semibold">CHARMING BRAND NEW VILLA</p>
+                        <p class="text-red-600">BLI1234</p>
+                    </div>
+                    <img class="object-cover h-56 w-full" src="public/images/search1.png">
+                    <div class="px-4 py-3 grid grid-cols-2 gap-3">
+                        <div class="flex">
+                            <div class="w-8">
+                                <i class="fas fa-map-marked-alt object-contain w-full h-full pr-2"></i>
+                            </div>
+                            <p class="text-sm h-full my-auto">Somewhere</p>
+                        </div>
+                        <div class="flex">
+                            <i class="fas fa-expand-arrows-alt w-8 pr-2"></i>
+                            <p class="text-sm">1230 Are</p>
+                        </div>
+                        <div class="flex">
+                            <i class="fas fa-home pr-2 w-8"></i>
+                            <p class="text-sm">Freehold</p>
+                        </div>
+                        <div class="flex">
+                            <i class="fas fa-bed pr-2 w-8"></i>
+                            <p class="text-sm">3 Bedroom</p>
+                        </div>
+                    </div>
+                    <p class="p-4 text-right font-bold">IDR 123.000.000</p>
+                </a>
+            </div>
+            
         </div>
     </div>
 

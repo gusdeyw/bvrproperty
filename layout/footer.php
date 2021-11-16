@@ -47,10 +47,10 @@
             </div>
             <div class="col-span-1 text-sm">
                 <p class="my-2">Name</p>
-                <input type='text' placeholder="" class="border-2 border-gray-300 bg-white h-8 px-1 text-sm  w-full">
+                <input type='text' placeholder="" class="border-2 border-gray-300 text-black bg-white h-8 px-1 text-sm  w-full">
                 <p class="my-2">Email</p>
-                <input type='text' placeholder="" class="border-2 border-gray-300 bg-white h-8 px-1 text-sm  w-full">
-                <button class="mt-4 border-2 border-red-700 bg-red-500 hover:bg-red-600 text-white h-10 text-center text-base w-5/12">
+                <input type='text' placeholder="" class="border-2 border-gray-300 text-black bg-white h-8 px-1 text-sm  w-full">
+                <button class="mt-4 border-2 border-bvr3 bg-bvr2 hover:bg-bvr3 text-white h-10 text-center text-base w-5/12">
                     Subscribe
                 </button>
             </div>
