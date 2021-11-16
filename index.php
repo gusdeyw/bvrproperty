@@ -145,7 +145,11 @@
                         <p class="text-red-600">BLI1234</p>
                     </div>
                     <img class="object-cover h-56 w-full" src="public/images/search1.png">
-                    <div class="px-4 py-3 grid grid-cols-2 gap-3">
+                    <div class="ml-auto -mt-48 w-max">
+                        <p class="relative py-1 px-2 text-sm bg-bvr2 text-white">Good Deal</p>
+                    </div>
+                    <div class="-mt-3"></div>
+                    <div class="px-4 py-3 grid grid-cols-2 gap-3 mt-44">
                         <div class="flex">
                             <div class="w-8">
                                 <i class="fas fa-map-marked-alt object-contain w-full h-full pr-2"></i>
@@ -153,7 +157,7 @@
                             <p class="text-sm h-full my-auto">Somewhere</p>
                         </div>
                         <div class="flex">
-                            <i class="fas fa-expand-arrows-alt w-8 pr-2"></i>
+                            <i class="pl-1.5 pt-1 fas fa-expand-arrows-alt w-8 pr-2"></i>
                             <p class="text-sm">1230 Are</p>
                         </div>
                         <div class="flex">
@@ -176,7 +180,11 @@
                         <p class="text-red-600">BLI1234</p>
                     </div>
                     <img class="object-cover h-56 w-full" src="public/images/search1.png">
-                    <div class="px-4 py-3 grid grid-cols-2 gap-3">
+                    <div class="ml-auto -mt-48 w-max">
+                        <p class="relative py-1 px-2 text-sm bg-bvr2 text-white">Good Deal</p>
+                    </div>
+                    <div class="-mt-3"></div>
+                    <div class="px-4 py-3 grid grid-cols-2 gap-3 mt-44">
                         <div class="flex">
                             <div class="w-8">
                                 <i class="fas fa-map-marked-alt object-contain w-full h-full pr-2"></i>
@@ -184,7 +192,7 @@
                             <p class="text-sm h-full my-auto">Somewhere</p>
                         </div>
                         <div class="flex">
-                            <i class="fas fa-expand-arrows-alt w-8 pr-2"></i>
+                            <i class="pl-1.5 pt-1 fas fa-expand-arrows-alt w-8 pr-2"></i>
                             <p class="text-sm">1230 Are</p>
                         </div>
                         <div class="flex">
@@ -207,7 +215,11 @@
                         <p class="text-red-600">BLI1234</p>
                     </div>
                     <img class="object-cover h-56 w-full" src="public/images/search1.png">
-                    <div class="px-4 py-3 grid grid-cols-2 gap-3">
+                    <div class="ml-auto -mt-48 w-max">
+                        <p class="relative py-1 px-2 text-sm bg-bvr2 text-white">Good Deal</p>
+                    </div>
+                    <div class="-mt-3"></div>
+                    <div class="px-4 py-3 grid grid-cols-2 gap-3 mt-44">
                         <div class="flex">
                             <div class="w-8">
                                 <i class="fas fa-map-marked-alt object-contain w-full h-full pr-2"></i>
@@ -215,7 +227,7 @@
                             <p class="text-sm h-full my-auto">Somewhere</p>
                         </div>
                         <div class="flex">
-                            <i class="fas fa-expand-arrows-alt w-8 pr-2"></i>
+                            <i class="pl-1.5 pt-1 fas fa-expand-arrows-alt w-8 pr-2"></i>
                             <p class="text-sm">1230 Are</p>
                         </div>
                         <div class="flex">
@@ -238,7 +250,11 @@
                         <p class="text-red-600">BLI1234</p>
                     </div>
                     <img class="object-cover h-56 w-full" src="public/images/search1.png">
-                    <div class="px-4 py-3 grid grid-cols-2 gap-3">
+                    <div class="ml-auto -mt-48 w-max">
+                        <p class="relative py-1 px-2 text-sm bg-bvr2 text-white">Good Deal</p>
+                    </div>
+                    <div class="-mt-3"></div>
+                    <div class="px-4 py-3 grid grid-cols-2 gap-3 mt-44">
                         <div class="flex">
                             <div class="w-8">
                                 <i class="fas fa-map-marked-alt object-contain w-full h-full pr-2"></i>
@@ -246,7 +262,7 @@
                             <p class="text-sm h-full my-auto">Somewhere</p>
                         </div>
                         <div class="flex">
-                            <i class="fas fa-expand-arrows-alt w-8 pr-2"></i>
+                            <i class="pl-1.5 pt-1 fas fa-expand-arrows-alt w-8 pr-2"></i>
                             <p class="text-sm">1230 Are</p>
                         </div>
                         <div class="flex">
@@ -261,6 +277,8 @@
                     <p class="p-4 text-right font-bold">IDR 123.000.000</p>
                 </a>
             </div>
+            
+            
             
         </div>
     </div>

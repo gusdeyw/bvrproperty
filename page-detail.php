@@ -136,8 +136,8 @@
                         <img src="https://swiperjs.com/demos/images/nature-10.jpg" />
                     </div>
                 </div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
+                <!-- <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div> -->
             </div>
         </div>
         <div class="h-40">
@@ -212,7 +212,7 @@
                 <div>
                     <p class="font-bold mb-3">PROPERTY DETAILS</p>
                     <p class="text-justify">CHARMING BRAND NEW VILLA</p>
-                    <div class="bg-white py-1 px-2">
+                    <div class="py-1 px-2">
                         <div class="flex w-full">
                             <p class="w-full">Ref ID :</p>
                             <p class="w-full font-semibold flex justify-end">PPR2790</p>
@@ -250,7 +250,7 @@
             <div class="col-span-4">
                 <div class="">
                     <p class="font-bold mb-3">PROPERTY FACILITY</p>
-                    <div class="px-3 py-2 grid grid-cols-7 gap-4 bg-white">
+                    <div class="px-3 py-2 grid grid-cols-7 gap-4">
                         <div class="col-span-4">
                             <div class="flex w-full">
                                 <div class="w-8 text-bvr2"><i class="fas fa-fan"></i></div>
@@ -350,24 +350,191 @@
             <div class="col-span-3 w-full">
                 <div>
                     <p class="font-bold mb-2">PROPERTY CONTACT</p>
-                    <p class="text-justify"><strong>SALES AGENT:</strong> Ceri</p>
-                    <div class="grid grid-cols-2 gap-4">
-                        <div class="col-span-1 w-full px-2 bg-white border-2 border-bvr2">
-
-                            <div class="w-full mx-auto">
-                                <p>Whatsapp</p>
+                    <p class=""><strong>SALES AGENT:</strong> Ceri</p>
+                    <div class="mt-1 grid grid-cols-5 gap-2">
+                        <!-- Share Logo -->
+                        <div class="col-span-1 h-10 bg-white border-2 border-bvr2">
+                            <div class="w-max mx-auto mt-1 h-4">
+                                <i class=" fab fa-facebook-f"></i>
                             </div>
-
                         </div>
-                        
-
+                        <div class="col-span-1 h-10 bg-white border-2 border-bvr2">
+                            <div class="w-max mx-auto mt-1 h-4">
+                                <i class="far fa-file-pdf"></i>
+                            </div>
+                        </div>
+                        <div class="col-span-1 h-10 bg-white border-2 border-bvr2">
+                            <div class="w-max mx-auto mt-1 h-4">
+                                <i class="far fa-envelope"></i>
+                            </div>
+                        </div>
+                        <div class="col-span-1 h-10 bg-white border-2 border-bvr2">
+                            <div class="w-max mx-auto mt-1 h-4">
+                                <i class="fab fa-twitter"></i>
+                            </div>
+                        </div>
+                        <div class="col-span-1 h-10 bg-white border-2 border-bvr2">
+                            <div class="w-max mx-auto mt-1 h-4">
+                                <i class="fab fa-linkedin-in"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-2 gap-4 mt-2">
+                        <div class="col-span-1 w-full px-2 py-2 bg-white border-2 border-bvr2">
+                            <div class="w-max m-auto flex">
+                                <i class="mt-1 px-1 fad fa-calendar-alt"></i>
+                                <p class="px-1">Schedule Visit</p>
+                            </div>
+                        </div>
+                        <div class="col-span-1 w-full px-2 py-2 bg-white border-2 border-bvr2">
+                            <div class="w-max m-auto flex">
+                                <i class="px-1 mt-1.5 fab fa-whatsapp fa-lg"></i>
+                                <p class="px-1">Whatsapp</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Video -->
+                    <div class="mt-4">
+                        <p class="font-bold mb-4">Property Video</p>
+                        <video class="w-full h-auto" controls>
+                            <source src="public/video/properti.mp4#t=0.1" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
                     </div>
                 </div>
-
+            </div>
+        </div>
+        <!-- PROPERTY LOCATION-->
+        <div class="my-8 mb-12">
+            <div class="flex my-3">
+                <p class="flex-none pr-6 font-bold">PROPERTY LOCATION</p>
+                <!-- Line -->
+                <svg height="3" class="w-full my-3">
+                    <line x1="0" y1="0" x2="30000" y2="0" style="stroke:black;stroke-width:3" />
+                </svg>
+            </div>
+            <div>
+                <img src="public/images/gmaps.png" class="w-full h-52 object-cover">
+            </div>
+        </div>
+        <!-- NEARBY LOCATION -->
+        <div class="my-8 mb-12">
+            <div class="flex my-3">
+                <p class="flex-none pr-6 font-bold">NEARBY PROPERTY</p>
+                <!-- Line -->
+                <svg height="3" class="w-full my-3">
+                    <line x1="0" y1="0" x2="30000" y2="0" style="stroke:black;stroke-width:3" />
+                </svg>
+            </div>
+            <div class="grid grid-cols-3 gap-10 my-10">
+                <!-- Hasil 1 -->
+                <div class="bg-white filter drop-shadow-lg border-2 hover:border-bvr2 col-span-1">
+                    <a href="page-detail.php" class="">
+                        <div class="p-3">
+                            <p class="font-semibold">CHARMING BRAND NEW VILLA</p>
+                            <p class="text-red-600">BLI1234</p>
+                        </div>
+                        <img class="object-cover h-56 w-full" src="public/images/search1.png">
+                        <div class="ml-auto -mt-48 w-max">
+                            <p class="relative py-1 px-2 text-sm bg-bvr2 text-white">Good Deal</p>
+                        </div>
+                        <div class="-mt-3"></div>
+                        <div class="px-4 py-3 grid grid-cols-2 gap-3 mt-44">
+                            <div class="flex">
+                                <div class="w-8">
+                                    <i class="fas fa-map-marked-alt object-contain w-full h-full pr-2"></i>
+                                </div>
+                                <p class="text-sm h-full my-auto">Somewhere</p>
+                            </div>
+                            <div class="flex">
+                                <i class="pl-1.5 pt-1 fas fa-expand-arrows-alt w-8 pr-2"></i>
+                                <p class="text-sm">1230 Are</p>
+                            </div>
+                            <div class="flex">
+                                <i class="fas fa-home pr-2 w-8"></i>
+                                <p class="text-sm">Freehold</p>
+                            </div>
+                            <div class="flex">
+                                <i class="fas fa-bed pr-2 w-8"></i>
+                                <p class="text-sm">3 Bedroom</p>
+                            </div>
+                        </div>
+                        <p class="p-4 text-right font-bold">IDR 123.000.000</p>
+                    </a>
+                </div>
+                <!-- Hasil 1 -->
+                <div class="bg-white filter drop-shadow-lg border-2 hover:border-bvr2 col-span-1">
+                    <a href="page-detail.php" class="">
+                        <div class="p-3">
+                            <p class="font-semibold">CHARMING BRAND NEW VILLA</p>
+                            <p class="text-red-600">BLI1234</p>
+                        </div>
+                        <img class="object-cover h-56 w-full" src="public/images/search1.png">
+                        <div class="ml-auto -mt-48 w-max">
+                            <p class="relative py-1 px-2 text-sm bg-bvr2 text-white">Good Deal</p>
+                        </div>
+                        <div class="-mt-3"></div>
+                        <div class="px-4 py-3 grid grid-cols-2 gap-3 mt-44">
+                            <div class="flex">
+                                <div class="w-8">
+                                    <i class="fas fa-map-marked-alt object-contain w-full h-full pr-2"></i>
+                                </div>
+                                <p class="text-sm h-full my-auto">Somewhere</p>
+                            </div>
+                            <div class="flex">
+                                <i class="pl-1.5 pt-1 fas fa-expand-arrows-alt w-8 pr-2"></i>
+                                <p class="text-sm">1230 Are</p>
+                            </div>
+                            <div class="flex">
+                                <i class="fas fa-home pr-2 w-8"></i>
+                                <p class="text-sm">Freehold</p>
+                            </div>
+                            <div class="flex">
+                                <i class="fas fa-bed pr-2 w-8"></i>
+                                <p class="text-sm">3 Bedroom</p>
+                            </div>
+                        </div>
+                        <p class="p-4 text-right font-bold">IDR 123.000.000</p>
+                    </a>
+                </div>
+                <!-- Hasil 1 -->
+                <div class="bg-white filter drop-shadow-lg border-2 hover:border-bvr2 col-span-1">
+                    <a href="page-detail.php" class="">
+                        <div class="p-3">
+                            <p class="font-semibold">CHARMING BRAND NEW VILLA</p>
+                            <p class="text-red-600">BLI1234</p>
+                        </div>
+                        <img class="object-cover h-56 w-full" src="public/images/search1.png">
+                        <div class="ml-auto -mt-48 w-max">
+                            <p class="relative py-1 px-2 text-sm bg-bvr2 text-white">Good Deal</p>
+                        </div>
+                        <div class="-mt-3"></div>
+                        <div class="px-4 py-3 grid grid-cols-2 gap-3 mt-44">
+                            <div class="flex">
+                                <div class="w-8">
+                                    <i class="fas fa-map-marked-alt object-contain w-full h-full pr-2"></i>
+                                </div>
+                                <p class="text-sm h-full my-auto">Somewhere</p>
+                            </div>
+                            <div class="flex">
+                                <i class="pl-1.5 pt-1 fas fa-expand-arrows-alt w-8 pr-2"></i>
+                                <p class="text-sm">1230 Are</p>
+                            </div>
+                            <div class="flex">
+                                <i class="fas fa-home pr-2 w-8"></i>
+                                <p class="text-sm">Freehold</p>
+                            </div>
+                            <div class="flex">
+                                <i class="fas fa-bed pr-2 w-8"></i>
+                                <p class="text-sm">3 Bedroom</p>
+                            </div>
+                        </div>
+                        <p class="p-4 text-right font-bold">IDR 123.000.000</p>
+                    </a>
+                </div>
             </div>
 
         </div>
-
 
     </div>
 
