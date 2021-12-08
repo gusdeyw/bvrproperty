@@ -50,7 +50,7 @@
                 <p class="my-2">Career</p>
                 <p class="my-2">Privacy Policy</p>
             </div>
-            <div class="col-span-2 text-sm">
+            <div class="col-span-1 md:col-span-2 text-sm">
                 <div class="flex">
                     <i class="fas fa-map-marker-alt w-6 mt-3 fa-md"></i>
                     <p class="my-2">Jalan Sunset Road Gang Meduri No 5, Seminyak, Kuta - Bali</p>
@@ -64,7 +64,7 @@
                     <p class="my-2">info@bvrproperty.com</p>
                 </div>
             </div>
-            <div class="col-span-2 md:col-span-1 text-sm">
+            <div class="col-span-1 md:col-span-1 text-sm">
                 <p class="my-2">Name</p>
                 <input type='text' placeholder="" class="border-2 border-gray-300 text-black bg-white h-8 px-1 text-sm  w-full">
                 <p class="my-2">Email</p>
