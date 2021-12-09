@@ -187,10 +187,10 @@
         </div>
         <div class="grid grid-cols-7 gap-5">
             <!-- Property Desc -->
-            <div class="col-span-4">
+            <div class="col-span-7 lg:col-span-4">
                 <div class="">
                     <p class="font-bold mb-3">PROPERTY DESCRIPTION</p>
-                    <p class="text-justify pr-10">I am not sure? but ima not a good writer, so this is the description
+                    <p class="text-justify lg:pr-10">I am not sure? but ima not a good writer, so this is the description
                         that you could always fill it with usefull word that could make people
                         shout “BUY!!!” to us. Cheers...
                         <br><br>
@@ -206,7 +206,7 @@
 
             </div>
             <!-- Property Details -->
-            <div class="col-span-3 w-full">
+            <div class="col-span-7 lg:col-span-3 w-full">
                 <div>
                     <p class="font-bold mb-3">PROPERTY DETAILS</p>
                     <p class="text-justify">CHARMING BRAND NEW VILLA</p>
@@ -245,7 +245,7 @@
 
             </div>
             <!-- Property Facility -->
-            <div class="col-span-4">
+            <div class="col-span-7 lg:col-span-4">
                 <div class="">
                     <p class="font-bold mb-3">PROPERTY FACILITY</p>
                     <div class="px-3 py-2 grid grid-cols-7 gap-4">
@@ -345,7 +345,7 @@
 
             </div>
             <!-- Property Contact -->
-            <div class="col-span-3 w-full">
+            <div class="col-span-7 lg:col-span-3 w-full">
                 <div>
                     <p class="font-bold mb-2">PROPERTY CONTACT</p>
                     <p class=""><strong>SALES AGENT:</strong> Ceri</p>
@@ -424,7 +424,7 @@
                     <line x1="0" y1="0" x2="30000" y2="0" style="stroke:black;stroke-width:3" />
                 </svg>
             </div>
-            <div class="grid grid-cols-3 gap-10 my-10">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 my-10">
                 <!-- Hasil 1 -->
                 <div class="bg-white filter drop-shadow-lg border-2 hover:border-bvr2 col-span-1">
                     <a href="page-detail.php" class="">
