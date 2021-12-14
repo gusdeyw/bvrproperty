@@ -1,5 +1,5 @@
 <?php include '../admin/layout/header.php'; ?>
-<title>Property Detail</title>
+<title>Property Add</title>
 </head>
 
 <body class="bg-gray-100 font-sans flex">
@@ -11,7 +11,7 @@
             <main class="w-full flex-grow p-8">
                 <div class="flex w-full">
                     <p class="text-xl font-semibold text-gray-700 items-bottom my-auto">
-                        Property Detail
+                        Property Add
                     </p>
                 </div>
                 <div class="bg-gray-300 rounded-t-lg mt-5 px-10 py-7">

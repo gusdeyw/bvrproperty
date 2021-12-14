@@ -15,7 +15,7 @@
                 </p>
 
                 <div class="flex ml-auto bg-white rounded-lg hover:bg-bvr20 hover:text-white text-bvr20">
-                    <a href="" class="px-4 py-2 flex">
+                    <a href="property-add.php" class="px-4 py-2 flex">
                         <i class="fas fa-plus-circle mt-1 mr-1"></i>
                         <p>Add New Property</p>
                     </a>
