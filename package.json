@@ -4,7 +4,7 @@
   "description": "BVR Property Front end &amp; Back End Site",
   "main": "index.js",
   "scripts": {
-    "build-css":"tailwindcss build -i src/styles.css -o public/styles.css"
+    "build-css": "tailwindcss build -i src/styles.css -o public/styles.css"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,8 @@
   "homepage": "https://github.com/gusdeyw/bvrproperty#readme",
   "dependencies": {
     "tailwindcss": "^2.2.19"
+  },
+  "devDependencies": {
+    "@tailwindcss/custom-forms": "^0.2.1"
   }
 }
