@@ -52,7 +52,7 @@
                 </div>
                 <div class="bg-gray-200 flex text-white">
                     <!--  -->
-                    <a onclick="generalInfo()" id="generalInfo2" class="cursor-pointer px-4 py-2 border-2 bg-gray-400 border-gray-700 hover:bg-bvr20 hover:border-bvr3">
+                    <a onclick="generalInfo()" id="generalInfo2" class="cursor-pointer px-4 py-2 border-2 bg-bvr20 border-gray-700 hover:bg-bvr20 hover:border-bvr3">
                         General Info
                     </a>
                     <!--  -->
@@ -82,7 +82,7 @@
 
                 </div>
                 <!-- General Info -->
-                <div id="generalInfo" class="bg-gray-200 px-10 pb-7 hidden">&nbsp;
+                <div id="generalInfo" class="bg-gray-200 px-10 pb-7">&nbsp;
                     <div class="grid grid-cols-2 gap-x-12 gap-y-5">
                         <div class="col-span-2">
                             <label class="font-semibold">Detail Description</label>
@@ -457,7 +457,7 @@
                     </div>
                 </div>
                 <!-- legaldoc -->
-                <div id="legalDocument" class="bg-gray-200 px-10 pb-7">&nbsp;
+                <div id="legalDocument" class="bg-gray-200 px-10 pb-7 hidden">&nbsp;
                     <div class="">
                         <label class="font-semibold">Legal Document Upload (Images Only)</label>
                         <input type="file" multiple class="w-full mt-1 py-1 focus:outline-none focus:ring-2 focus:ring-bvr20 focus:border-transparent rounded-md">
@@ -506,24 +506,44 @@
                                     <label for="certificate">Copy of Land Certificate</label>
                                 </div>
                                 <div class="mt-1.5">
-                                    <input type="checkbox" id="leasehold" value="leasehold" class="-mt-1 mr-1 form-checkbox border-2 border-bvr10 text-bvr20">
-                                    <label for="leasehold"> Copy of Existing Lease Agreement - Leasehold and Commercial Only</label>
+                                    <input type="checkbox" id="taxreceipt" value="taxreceipt" class="-mt-1 mr-1 form-checkbox border-2 border-bvr10 text-bvr20">
+                                    <label for="taxreceipt"> Copy of Last Annual Land Tax Receipt</label>
                                 </div>
                                 <div class="mt-1.5">
-                                    <input type="checkbox" id="certificate" value="certificate" class="-mt-1 mr-1 form-checkbox border-2 border-bvr10 text-bvr20">
-                                    <label for="certificate">Copy of Land Certificate</label>
+                                    <input type="checkbox" id="ktpcard" value="ktpcard" class="-mt-1 mr-1 form-checkbox border-2 border-bvr10 text-bvr20">
+                                    <label for="ktpcard">Copy of Owner KTP Card</label>
                                 </div>
                                 <div class="mt-1.5">
-                                    <input type="checkbox" id="leasehold" value="leasehold" class="-mt-1 mr-1 form-checkbox border-2 border-bvr10 text-bvr20">
-                                    <label for="leasehold"> Copy of Existing Lease Agreement - Leasehold and Commercial Only</label>
+                                    <input type="checkbox" id="imb" value="imb" class="-mt-1 mr-1 form-checkbox border-2 border-bvr10 text-bvr20">
+                                    <label for="imb">Copy of IMB</label>
                                 </div>
                                 <div class="mt-1.5">
-                                    <input type="checkbox" id="certificate" value="certificate" class="-mt-1 mr-1 form-checkbox border-2 border-bvr10 text-bvr20">
-                                    <label for="certificate">Copy of Land Certificate</label>
+                                    <input type="checkbox" id="landonly" value="landonly" class="-mt-1 mr-1 form-checkbox border-2 border-bvr10 text-bvr20">
+                                    <label for="landonly">Copy of ITR - For Land Only</label>
                                 </div>
                             </div>
                             <div class="">
                                 <p class="mt-4 font-semibold">Additional</p>
+                                <div class="mt-1.5">
+                                    <input type="checkbox" id="mortgagetitle" value="mortgagetitle" class="-mt-1 mr-1 form-checkbox border-2 border-bvr10 text-bvr20">
+                                    <label for="mortgagetitle"> Copy of Mortgage Title Certificate</label>
+                                </div>
+                                <div class="mt-1.5">
+                                    <input type="checkbox" id="righttitle" value="righttitle" class="-mt-1 mr-1 form-checkbox border-2 border-bvr10 text-bvr20">
+                                    <label for="righttitle">Copy of Right of Use Title Certificate</label>
+                                </div>
+                                <div class="mt-1.5">
+                                    <input type="checkbox" id="construction" value="construction" class="-mt-1 mr-1 form-checkbox border-2 border-bvr10 text-bvr20">
+                                    <label for="construction">Copy of Payment Evidence of Construction Tax</label>
+                                </div>
+                                <div class="mt-1.5">
+                                    <input type="checkbox" id="arrangement" value="arrangement" class="-mt-1 mr-1 form-checkbox border-2 border-bvr10 text-bvr20">
+                                    <label for="arrangement">Copy of Existing Nominee Arrangement</label>
+                                </div>
+                                <div class="mt-1.5">
+                                    <input type="checkbox" id="license" value="license" class="-mt-1 mr-1 form-checkbox border-2 border-bvr10 text-bvr20">
+                                    <label for="license">Copy of Relevant Operating License</label>
+                                </div>
                             </div>
 
                         </div>
@@ -565,10 +585,20 @@
             var g = document.getElementById("legalDocument");
             g.style.display = "none";
             // color
-            // var c = document.getElementById("generalInfo2");
-            // c.style.backgroundColor = "#EF3700";
-            // var d = document.getElementById("facilities2","pricing2");
-            // d.style.backgroundColor = "#FFFFFF";
+            var h = document.getElementById("generalInfo2");
+            h.style.backgroundColor = "#EF3700";
+            var i = document.getElementById("facilities2");
+            i.style.backgroundColor = "#9CA3AF";
+            var j = document.getElementById("pricing2");
+            j.style.backgroundColor = "#9CA3AF";
+            var k = document.getElementById("ownercp2");
+            k.style.backgroundColor = "#9CA3AF";
+            var l = document.getElementById("imagesmenu2");
+            l.style.backgroundColor = "#9CA3AF";
+            var m = document.getElementById("website2");
+            m.style.backgroundColor = "#9CA3AF";
+            var n = document.getElementById("legalDocument2");
+            n.style.backgroundColor = "#9CA3AF";
         }
 
         function facilities() {
@@ -586,6 +616,21 @@
             f.style.display = "none";
             var g = document.getElementById("legalDocument");
             g.style.display = "none";
+            // color
+            var h = document.getElementById("facilities2");
+            h.style.backgroundColor = "#EF3700";
+            var i = document.getElementById("generalInfo2");
+            i.style.backgroundColor = "#9CA3AF";
+            var j = document.getElementById("pricing2");
+            j.style.backgroundColor = "#9CA3AF";
+            var k = document.getElementById("ownercp2");
+            k.style.backgroundColor = "#9CA3AF";
+            var l = document.getElementById("imagesmenu2");
+            l.style.backgroundColor = "#9CA3AF";
+            var m = document.getElementById("website2");
+            m.style.backgroundColor = "#9CA3AF";
+            var n = document.getElementById("legalDocument2");
+            n.style.backgroundColor = "#9CA3AF";
         }
 
         function pricing() {
@@ -603,6 +648,21 @@
             f.style.display = "none";
             var g = document.getElementById("legalDocument");
             g.style.display = "none";
+            // color
+            var h = document.getElementById("pricing2");
+            h.style.backgroundColor = "#EF3700";
+            var i = document.getElementById("generalInfo2");
+            i.style.backgroundColor = "#9CA3AF";
+            var j = document.getElementById("facilities2");
+            j.style.backgroundColor = "#9CA3AF";
+            var k = document.getElementById("ownercp2");
+            k.style.backgroundColor = "#9CA3AF";
+            var l = document.getElementById("imagesmenu2");
+            l.style.backgroundColor = "#9CA3AF";
+            var m = document.getElementById("website2");
+            m.style.backgroundColor = "#9CA3AF";
+            var n = document.getElementById("legalDocument2");
+            n.style.backgroundColor = "#9CA3AF";
         }
 
         function ownercp() {
@@ -620,6 +680,21 @@
             f.style.display = "none";
             var g = document.getElementById("legalDocument");
             g.style.display = "none";
+             // color
+            var h = document.getElementById("ownercp2");
+            h.style.backgroundColor = "#EF3700";
+            var i = document.getElementById("generalInfo2");
+            i.style.backgroundColor = "#9CA3AF";
+            var j = document.getElementById("facilities2");
+            j.style.backgroundColor = "#9CA3AF";
+            var k = document.getElementById("pricing2");
+            k.style.backgroundColor = "#9CA3AF";
+            var l = document.getElementById("imagesmenu2");
+            l.style.backgroundColor = "#9CA3AF";
+            var m = document.getElementById("website2");
+            m.style.backgroundColor = "#9CA3AF";
+            var n = document.getElementById("legalDocument2");
+            n.style.backgroundColor = "#9CA3AF";
         }
 
         function imagesmenu() {
@@ -637,6 +712,21 @@
             f.style.display = "none";
             var g = document.getElementById("legalDocument");
             g.style.display = "none";
+             // color
+             var h = document.getElementById("imagesmenu2");
+            h.style.backgroundColor = "#EF3700";
+            var i = document.getElementById("generalInfo2");
+            i.style.backgroundColor = "#9CA3AF";
+            var j = document.getElementById("facilities2");
+            j.style.backgroundColor = "#9CA3AF";
+            var k = document.getElementById("pricing2");
+            k.style.backgroundColor = "#9CA3AF";
+            var l = document.getElementById("ownercp2");
+            l.style.backgroundColor = "#9CA3AF";
+            var m = document.getElementById("website2");
+            m.style.backgroundColor = "#9CA3AF";
+            var n = document.getElementById("legalDocument2");
+            n.style.backgroundColor = "#9CA3AF";
         }
 
         function website() {
@@ -654,6 +744,21 @@
             f.style.display = "none";
             var g = document.getElementById("legalDocument");
             g.style.display = "none";
+              // color
+              var h = document.getElementById("website2");
+            h.style.backgroundColor = "#EF3700";
+            var i = document.getElementById("generalInfo2");
+            i.style.backgroundColor = "#9CA3AF";
+            var j = document.getElementById("facilities2");
+            j.style.backgroundColor = "#9CA3AF";
+            var k = document.getElementById("pricing2");
+            k.style.backgroundColor = "#9CA3AF";
+            var l = document.getElementById("ownercp2");
+            l.style.backgroundColor = "#9CA3AF";
+            var m = document.getElementById("imagesmenu2");
+            m.style.backgroundColor = "#9CA3AF";
+            var n = document.getElementById("legalDocument2");
+            n.style.backgroundColor = "#9CA3AF";
         }
 
         function legalDocument() {
@@ -671,6 +776,21 @@
             f.style.display = "none";
             var g = document.getElementById("website");
             g.style.display = "none";
+            // color
+            var h = document.getElementById("legalDocument2");
+            h.style.backgroundColor = "#EF3700";
+            var i = document.getElementById("generalInfo2");
+            i.style.backgroundColor = "#9CA3AF";
+            var j = document.getElementById("facilities2");
+            j.style.backgroundColor = "#9CA3AF";
+            var k = document.getElementById("pricing2");
+            k.style.backgroundColor = "#9CA3AF";
+            var l = document.getElementById("ownercp2");
+            l.style.backgroundColor = "#9CA3AF";
+            var m = document.getElementById("imagesmenu2");
+            m.style.backgroundColor = "#9CA3AF";
+            var n = document.getElementById("website2");
+            n.style.backgroundColor = "#9CA3AF";
         }
     </script>
     <!-- Select All in Facilities-->
