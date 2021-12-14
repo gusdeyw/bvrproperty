@@ -7,7 +7,7 @@
     <?php include '../admin/layout/navbar.php'; ?>
 
     <div class="w-full overflow-x-hidden border-t flex flex-col">
-        <form action="" method="POST">
+        <form action="" method="POST" enctype="multipart/form-data">
             <main class="w-full flex-grow p-8">
                 <div class="flex w-full">
                     <p class="text-xl font-semibold text-gray-700 items-bottom my-auto">
@@ -68,7 +68,7 @@
                         Owner/Contact Person
                     </a>
                     <!--  -->
-                    <a onclick="images()" id="images2" class="cursor-pointer px-4 py-2 border-2 bg-gray-400 border-gray-700 hover:bg-bvr20 hover:border-bvr3">
+                    <a onclick="imagesmenu()" id="imagesmenu2" class="cursor-pointer px-4 py-2 border-2 bg-gray-400 border-gray-700 hover:bg-bvr20 hover:border-bvr3">
                         Images
                     </a>
                     <!--  -->
@@ -258,98 +258,275 @@
                 </div>
 
                 <!-- Facilities -->
-                <div id="facilities" class="bg-gray-200 px-10 pb-7">&nbsp;
+                <div id="facilities" class="bg-gray-200 px-10 pb-7 hidden">&nbsp;
                     <p class="text-lg font-semibold">Facilities</p>
                     <div class="mt-2 bg-white rounded-md px-4 py-4">
                         <div class="flex">
                             <p class="font-semibold">Select : &nbsp;</p>
-                            <p class="font-semibold text-bvr20">All</p>
+                            <!-- <a class="font-semibold text-bvr20 cursor-pointer" onClick="toggle(this)">All</a> -->
+                            <input type="checkbox" onClick="toggle(this)" id="checkall" class="hidden">
+                            <label for="checkall" class="font-semibold text-bvr20 cursor-pointer">All </label>
                             <p>&nbsp; , &nbsp;</p>
-                            <p class="font-semibold text-bvr20">None</p>
+                            <!-- <p class="font-semibold text-bvr20">None</p> -->
+                            <input type="checkbox" onClick="toggle2(this)" id="checkall2" class="hidden">
+                            <label for="checkall2" class="font-semibold text-bvr20 cursor-pointer">None </label>
                         </div>
                         <div class="grid grid-cols-3 gap-x-6  gap-y-2 mt-2">
                             <div class="">
-                                <input type="checkbox" id="airconditioner" name="airconditioner" value="airconditioner" class="-mt-1 mr-1 form-checkbox border-2 border-bvr10 text-bvr20">
+                                <input type="checkbox" id="airconditioner" name="foo" value="airconditioner" class="-mt-1 mr-1 form-checkbox border-2 border-bvr10 text-bvr20">
                                 <label for="airconditioner"> Air Conditioner</label>
                             </div>
                             <div class="">
-                                <input type="checkbox" id="cabletv" name="cabletv" value="cabletv" class="-mt-1 mr-1 form-checkbox border-2 border-bvr10 text-bvr20">
+                                <input type="checkbox" id="cabletv" name="foo" value="cabletv" class="-mt-1 mr-1 form-checkbox border-2 border-bvr10 text-bvr20">
                                 <label for="cabletv">Cable Tv</label>
                             </div>
                             <div class="">
-                                <input type="checkbox" id="diningarea" name="diningarea" value="diningarea" class="-mt-1 mr-1 form-checkbox border-2 border-bvr10 text-bvr20">
+                                <input type="checkbox" id="diningarea" name="foo" value="diningarea" class="-mt-1 mr-1 form-checkbox border-2 border-bvr10 text-bvr20">
                                 <label for="diningarea">Dining Area</label>
                             </div>
                             <div class="">
-                                <input type="checkbox" id="electricity" name="electricity" value="electricity" class="-mt-1 mr-1 form-checkbox border-2 border-bvr10 text-bvr20">
+                                <input type="checkbox" id="electricity" name="foo" value="electricity" class="-mt-1 mr-1 form-checkbox border-2 border-bvr10 text-bvr20">
                                 <label for="electricity">Electricity</label>
                             </div>
                             <div class="">
-                                <input type="checkbox" id="garage" name="garage" value="garage" class="-mt-1 mr-1 form-checkbox border-2 border-bvr10 text-bvr20">
+                                <input type="checkbox" id="garage" name="foo" value="garage" class="-mt-1 mr-1 form-checkbox border-2 border-bvr10 text-bvr20">
                                 <label for="garage">Garage</label>
                             </div>
                             <div class="">
-                                <input type="checkbox" id="gazebo" name="gazebo" value="gazebo" class="-mt-1 mr-1 form-checkbox border-2 border-bvr10 text-bvr20">
+                                <input type="checkbox" id="gazebo" name="foo" value="gazebo" class="-mt-1 mr-1 form-checkbox border-2 border-bvr10 text-bvr20">
                                 <label for="gazebo">Gazebo</label>
                             </div>
                             <div class="">
-                                <input type="checkbox" id="gym" name="gym" value="gym" class="-mt-1 mr-1 form-checkbox border-2 border-bvr10 text-bvr20">
+                                <input type="checkbox" id="gym" name="foo" value="gym" class="-mt-1 mr-1 form-checkbox border-2 border-bvr10 text-bvr20">
                                 <label for="gym">Gym</label>
                             </div>
                             <div class="">
-                                <input type="checkbox" id="heating" name="heating" value="heating" class="-mt-1 mr-1 form-checkbox border-2 border-bvr10 text-bvr20">
+                                <input type="checkbox" id="heating" name="foo" value="heating" class="-mt-1 mr-1 form-checkbox border-2 border-bvr10 text-bvr20">
                                 <label for="heating">Heating</label>
                             </div>
                             <div class="">
-                                <input type="checkbox" id="hottub" name="hottub" value="hottub" class="-mt-1 mr-1 form-checkbox border-2 border-bvr10 text-bvr20">
+                                <input type="checkbox" id="hottub" name="foo" value="hottub" class="-mt-1 mr-1 form-checkbox border-2 border-bvr10 text-bvr20">
                                 <label for="hottub"> Hot Tub</label>
                             </div>
                             <div class="">
-                                <input type="checkbox" id="internet" name="internet" value="internet" class="-mt-1 mr-1 form-checkbox border-2 border-bvr10 text-bvr20">
+                                <input type="checkbox" id="internet" name="foo" value="internet" class="-mt-1 mr-1 form-checkbox border-2 border-bvr10 text-bvr20">
                                 <label for="internet">Internet</label>
                             </div>
                             <div class="">
-                                <input type="checkbox" id="kitchen" name="kitchen" value="kitchen" class="-mt-1 mr-1 form-checkbox border-2 border-bvr10 text-bvr20">
+                                <input type="checkbox" id="kitchen" name="foo" value="kitchen" class="-mt-1 mr-1 form-checkbox border-2 border-bvr10 text-bvr20">
                                 <label for="kitchen">Kitchen</label>
                             </div>
                             <div class="">
-                                <input type="checkbox" id="level" name="level" value="level" class="-mt-1 mr-1 form-checkbox border-2 border-bvr10 text-bvr20">
+                                <input type="checkbox" id="level" name="foo" value="level" class="-mt-1 mr-1 form-checkbox border-2 border-bvr10 text-bvr20">
                                 <label for="level"> Level</label>
                             </div>
                             <div class="">
-                                <input type="checkbox" id="maidroom" name="maidroom" value="maidroom" class="-mt-1 mr-1 form-checkbox border-2 border-bvr10 text-bvr20">
+                                <input type="checkbox" id="maidroom" name="foo" value="maidroom" class="-mt-1 mr-1 form-checkbox border-2 border-bvr10 text-bvr20">
                                 <label for="maidroom">Maid Room</label>
                             </div>
                             <div class="">
-                                <input type="checkbox" id="pool" name="pool" value="pool" class="-mt-1 mr-1 form-checkbox border-2 border-bvr10 text-bvr20">
+                                <input type="checkbox" id="pool" name="foo" value="pool" class="-mt-1 mr-1 form-checkbox border-2 border-bvr10 text-bvr20">
                                 <label for="pool">Pool</label>
                             </div>
                             <div class="">
-                                <input type="checkbox" id="security" name="security" value="security" class="-mt-1 mr-1 form-checkbox border-2 border-bvr10 text-bvr20">
+                                <input type="checkbox" id="security" name="foo" value="security" class="-mt-1 mr-1 form-checkbox border-2 border-bvr10 text-bvr20">
                                 <label for="security"> Security</label>
                             </div>
                             <div class="">
-                                <input type="checkbox" id="storage" name="storage" value="storage" class="-mt-1 mr-1 form-checkbox border-2 border-bvr10 text-bvr20">
+                                <input type="checkbox" id="storage" name="foo" value="storage" class="-mt-1 mr-1 form-checkbox border-2 border-bvr10 text-bvr20">
                                 <label for="storage">Storage</label>
                             </div>
                             <div class="">
-                                <input type="checkbox" id="suitable" name="suitable" value="suitable" class="-mt-1 mr-1 form-checkbox border-2 border-bvr10 text-bvr20">
+                                <input type="checkbox" id="suitable" name="foo" value="suitable" class="-mt-1 mr-1 form-checkbox border-2 border-bvr10 text-bvr20">
                                 <label for="suitable">Suitable for Events</label>
                             </div>
                             <div class="">
-                                <input type="checkbox" id="washer" name="washer" value="washer" class="-mt-1 mr-1 form-checkbox border-2 border-bvr10 text-bvr20">
+                                <input type="checkbox" id="washer" name="foo" value="washer" class="-mt-1 mr-1 form-checkbox border-2 border-bvr10 text-bvr20">
                                 <label for="washer"> Washer or Laundry</label>
                             </div>
                             <div class="">
-                                <input type="checkbox" id="cabletv" name="cabletv" value="cabletv" class="-mt-1 mr-1 form-checkbox border-2 border-bvr10 text-bvr20">
-                                <label for="cabletv">Cable Tv</label>
+                                <input type="checkbox" id="water" name="foo" value="water" class="-mt-1 mr-1 form-checkbox border-2 border-bvr10 text-bvr20">
+                                <label for="water">Water Resources</label>
                             </div>
                             <div class="">
-                                <input type="checkbox" id="diningarea" name="diningarea" value="diningarea" class="-mt-1 mr-1 form-checkbox border-2 border-bvr10 text-bvr20">
-                                <label for="diningarea">Dining Area</label>
+                                <input type="checkbox" id="wifi" name="foo" value="wifi" class="-mt-1 mr-1 form-checkbox border-2 border-bvr10 text-bvr20">
+                                <label for="wifi">Wi-fi</label>
                             </div>
                         </div>
 
+                    </div>
+                </div>
+                <!-- Pricing -->
+                <div id="pricing" class="bg-gray-200 px-10 pb-7 hidden">&nbsp;
+                    <div class="grid grid-cols-2 gap-x-12 gap-y-5">
+                        <div class="">
+                            <label class="font-semibold">Asking Price (IDR) (Include BVR commission fee)</label>
+                            <input type="number" class="w-full mt-1 py-1 px-4 focus:outline-none focus:ring-2 focus:ring-bvr20 focus:border-transparent rounded-md">
+                        </div>
+                        <div class="">
+                            <label class="font-semibold">VR Commission Fee (%) </label>
+                            <input type="number" class="w-full mt-1 py-1 px-4 focus:outline-none focus:ring-2 focus:ring-bvr20 focus:border-transparent rounded-md">
+                        </div>
+                        <div class="">
+                            <label class="font-semibold">If sold - What price did the property sell for? </label>
+                            <input type="number" class="w-full mt-1 py-1 px-4 focus:outline-none focus:ring-2 focus:ring-bvr20 focus:border-transparent rounded-md">
+                        </div>
+                    </div>
+                </div>
+                <!-- Ownercp -->
+                <div id="ownercp" class="bg-gray-200 px-10 pb-7 hidden">&nbsp;
+                    <div class="grid grid-cols-2 gap-x-12 gap-y-5">
+                        <div class="">
+                            <label class="font-semibold">Owner/Contact Person Name</label>
+                            <input type="text" class="w-full mt-1 py-1 px-4 focus:outline-none focus:ring-2 focus:ring-bvr20 focus:border-transparent rounded-md">
+                        </div>
+                        <div class="">
+                            <label class="font-semibold">Owner/Contact person email</label>
+                            <input type="email" class="w-full mt-1 py-1 px-4 focus:outline-none focus:ring-2 focus:ring-bvr20 focus:border-transparent rounded-md">
+                        </div>
+                        <div class="">
+                            <label class="font-semibold">Owner/Contact person phone number </label>
+                            <input type="number" class="w-full mt-1 py-1 px-4 focus:outline-none focus:ring-2 focus:ring-bvr20 focus:border-transparent rounded-md">
+                        </div>
+                        <div class="">
+                            <label class="font-semibold">Letter Send to Vendor</label>
+                            <textarea type="message" rows="6" class="w-full mt-1 py-1 px-4 focus:outline-none focus:ring-2 focus:ring-bvr20 focus:border-transparent rounded-md"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <!-- Images -->
+                <div id="imagesmenu" class="bg-gray-200 px-10 pb-7 pt-6 hidden">
+                    <div class="">
+                        <label class="font-semibold">Images Alt</label>
+                        <input type="text" class="w-full mt-1 py-1 px-4 focus:outline-none focus:ring-2 focus:ring-bvr20 focus:border-transparent rounded-md">
+                    </div>
+                    <div class="mt-4">
+                        <label class="font-semibold">Property Images Upload</label>
+                        <input type="file" multiple class="w-full mt-1 py-1 focus:outline-none focus:ring-2 focus:ring-bvr20 focus:border-transparent rounded-md">
+                        <p class="mt-4 font-semibold text-base">Current photo in database</p>
+                        <div class="grid grid-cols-4 gap-x-5 gap-y-3 mt-2">
+                            <div>
+                                <img src="/public/images/search1.png" class="w-full h-36 object-fill">
+                                <p class="px-4 pt-2 pb-1 bg-red-200 text-red-700 text-sm">Image-929189389189</p>
+                                <p class="px-4 pb-1 bg-red-200 text-black text-sm">357.98 kb</p>
+                            </div>
+                            <div>
+                                <img src="/public/images/search1.png" class="w-full h-36 object-fill">
+                                <p class="px-4 pt-2 pb-1 bg-red-200 text-red-700 text-sm">Image-929189389189</p>
+                                <p class="px-4 pb-1 bg-red-200 text-black text-sm">357.98 kb</p>
+                            </div>
+                            <div>
+                                <img src="/public/images/search1.png" class="w-full h-36 object-fill">
+                                <p class="px-4 pt-2 pb-1 bg-red-200 text-red-700 text-sm">Image-929189389189</p>
+                                <p class="px-4 pb-1 bg-red-200 text-black text-sm">357.98 kb</p>
+                            </div>
+                            <div>
+                                <img src="/public/images/search1.png" class="w-full h-36 object-fill">
+                                <p class="px-4 pt-2 pb-1 bg-red-200 text-red-700 text-sm">Image-929189389189</p>
+                                <p class="px-4 pb-1 bg-red-200 text-black text-sm">357.98 kb</p>
+                            </div>
+                            <div>
+                                <img src="/public/images/search1.png" class="w-full h-36 object-fill">
+                                <p class="px-4 pt-2 pb-1 bg-red-200 text-red-700 text-sm">Image-929189389189</p>
+                                <p class="px-4 pb-1 bg-red-200 text-black text-sm">357.98 kb</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Website -->
+                <div id="website" class="bg-gray-200 px-10 pb-7 hidden">&nbsp;
+                    <div class="grid grid-cols-2 gap-x-12 gap-y-5">
+                        <div class="">
+                            <label class="font-semibold">Website Headline</label>
+                            <input type="text" class="w-full mt-1 py-1 px-4 focus:outline-none focus:ring-2 focus:ring-bvr20 focus:border-transparent rounded-md">
+                        </div>
+                        <div class="">
+                            <label class="font-semibold">Permalink</label>
+                            <input type="text" class="w-full mt-1 py-1 px-4 focus:outline-none focus:ring-2 focus:ring-bvr20 focus:border-transparent rounded-md">
+                        </div>
+                        <div class="-mt-2">
+                            <div>
+                                <input type="checkbox" id="featured" name="featured" value="featured" class="-mt-1 mr-1 form-checkbox border-2 border-bvr10 text-bvr20">
+                                <label for="featured"> Mark this property featured on the website</label>
+                            </div>
+                            <div class="mt-2">
+                                <input type="checkbox" id="homepage" name="homepage" value="homepage" class="-mt-1 mr-1 form-checkbox border-2 border-bvr10 text-bvr20">
+                                <label for="homepage"> Add this property in Homepage Slider</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- legaldoc -->
+                <div id="legalDocument" class="bg-gray-200 px-10 pb-7">&nbsp;
+                    <div class="">
+                        <label class="font-semibold">Legal Document Upload (Images Only)</label>
+                        <input type="file" multiple class="w-full mt-1 py-1 focus:outline-none focus:ring-2 focus:ring-bvr20 focus:border-transparent rounded-md">
+                        <p class="mt-4 font-semibold text-base">Current images in database</p>
+                        <div class="grid grid-cols-4 gap-x-5 gap-y-3 mt-2">
+                            <div>
+                                <img src="/public/images/legal.png" class="w-full h-36 object-fill">
+                                <p class="px-4 pt-2 pb-1 bg-red-200 text-red-700 text-sm">Legal-929189389189</p>
+                                <p class="px-4 pb-1 bg-red-200 text-black text-sm">357.98 kb</p>
+                            </div>
+                            <div>
+                                <img src="/public/images/legal.png" class="w-full h-36 object-fill">
+                                <p class="px-4 pt-2 pb-1 bg-red-200 text-red-700 text-sm">Legal-929189389189</p>
+                                <p class="px-4 pb-1 bg-red-200 text-black text-sm">357.98 kb</p>
+                            </div>
+                            <div>
+                                <img src="/public/images/legal.png" class="w-full h-36 object-fill">
+                                <p class="px-4 pt-2 pb-1 bg-red-200 text-red-700 text-sm">Legal-929189389189</p>
+                                <p class="px-4 pb-1 bg-red-200 text-black text-sm">357.98 kb</p>
+                            </div>
+                            <div>
+                                <img src="/public/images/legal.png" class="w-full h-36 object-fill">
+                                <p class="px-4 pt-2 pb-1 bg-red-200 text-red-700 text-sm">Legal-929189389189</p>
+                                <p class="px-4 pb-1 bg-red-200 text-black text-sm">357.98 kb</p>
+                            </div>
+                            <div>
+                                <img src="/public/images/legal.png" class="w-full h-36 object-fill">
+                                <p class="px-4 pt-2 pb-1 bg-red-200 text-red-700 text-sm">Legal-929189389189</p>
+                                <p class="px-4 pb-1 bg-red-200 text-black text-sm">357.98 kb</p>
+                            </div>
+                        </div>
+                        <div class="mt-5">
+                            <label class="font-semibold">File Upload</label>
+                            <input type="file" multiple class="w-full mt-1 py-1 focus:outline-none focus:ring-2 focus:ring-bvr20 focus:border-transparent rounded-md">
+                        </div>
+                        <p class="mt-4 font-semibold">Please Check (Make Sure The Photos Already Attached)</p>
+                        <div class="grid grid-cols-2 gap-x-5">
+                            <div class="">
+                                <p class="mt-4 font-semibold mb-3">Mandatory</p>
+                                <div class="mt-1.5">
+                                    <input type="checkbox" id="leasehold" value="leasehold" class="-mt-1 mr-1 form-checkbox border-2 border-bvr10 text-bvr20">
+                                    <label for="leasehold"> Copy of Existing Lease Agreement - Leasehold and Commercial Only</label>
+                                </div>
+                                <div class="mt-1.5">
+                                    <input type="checkbox" id="certificate" value="certificate" class="-mt-1 mr-1 form-checkbox border-2 border-bvr10 text-bvr20">
+                                    <label for="certificate">Copy of Land Certificate</label>
+                                </div>
+                                <div class="mt-1.5">
+                                    <input type="checkbox" id="leasehold" value="leasehold" class="-mt-1 mr-1 form-checkbox border-2 border-bvr10 text-bvr20">
+                                    <label for="leasehold"> Copy of Existing Lease Agreement - Leasehold and Commercial Only</label>
+                                </div>
+                                <div class="mt-1.5">
+                                    <input type="checkbox" id="certificate" value="certificate" class="-mt-1 mr-1 form-checkbox border-2 border-bvr10 text-bvr20">
+                                    <label for="certificate">Copy of Land Certificate</label>
+                                </div>
+                                <div class="mt-1.5">
+                                    <input type="checkbox" id="leasehold" value="leasehold" class="-mt-1 mr-1 form-checkbox border-2 border-bvr10 text-bvr20">
+                                    <label for="leasehold"> Copy of Existing Lease Agreement - Leasehold and Commercial Only</label>
+                                </div>
+                                <div class="mt-1.5">
+                                    <input type="checkbox" id="certificate" value="certificate" class="-mt-1 mr-1 form-checkbox border-2 border-bvr10 text-bvr20">
+                                    <label for="certificate">Copy of Land Certificate</label>
+                                </div>
+                            </div>
+                            <div class="">
+                                <p class="mt-4 font-semibold">Additional</p>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
                 <!-- Button -->
@@ -369,13 +546,24 @@
     <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
     <!-- Font Awesome -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" integrity="sha256-KzZiKy0DWYsnwMF+X1DvQngQ2/FxF7MF3Ff72XcpuPs=" crossorigin="anonymous"></script>
+    <!-- Change TAB JS -->
     <script>
         function generalInfo() {
             // show/hide
             var a = document.getElementById("generalInfo");
-            var b = document.getElementById("facilities","pricing");
             a.style.display = "block";
+            var b = document.getElementById("facilities");
             b.style.display = "none";
+            var c = document.getElementById("pricing");
+            c.style.display = "none";
+            var d = document.getElementById("ownercp");
+            d.style.display = "none";
+            var e = document.getElementById("imagesmenu");
+            e.style.display = "none";
+            var f = document.getElementById("website");
+            f.style.display = "none";
+            var g = document.getElementById("legalDocument");
+            g.style.display = "none";
             // color
             // var c = document.getElementById("generalInfo2");
             // c.style.backgroundColor = "#EF3700";
@@ -385,9 +573,121 @@
 
         function facilities() {
             var a = document.getElementById("facilities");
-            var b = document.getElementById("generalInfo");
             a.style.display = "block";
+            var b = document.getElementById("generalInfo");
             b.style.display = "none";
+            var c = document.getElementById("pricing");
+            c.style.display = "none";
+            var d = document.getElementById("ownercp");
+            d.style.display = "none";
+            var e = document.getElementById("imagesmenu");
+            e.style.display = "none";
+            var f = document.getElementById("website");
+            f.style.display = "none";
+            var g = document.getElementById("legalDocument");
+            g.style.display = "none";
+        }
+
+        function pricing() {
+            var a = document.getElementById("pricing");
+            a.style.display = "block";
+            var b = document.getElementById("generalInfo");
+            b.style.display = "none";
+            var c = document.getElementById("facilities");
+            c.style.display = "none";
+            var d = document.getElementById("ownercp");
+            d.style.display = "none";
+            var e = document.getElementById("imagesmenu");
+            e.style.display = "none";
+            var f = document.getElementById("website");
+            f.style.display = "none";
+            var g = document.getElementById("legalDocument");
+            g.style.display = "none";
+        }
+
+        function ownercp() {
+            var a = document.getElementById("ownercp");
+            a.style.display = "block";
+            var b = document.getElementById("generalInfo");
+            b.style.display = "none";
+            var c = document.getElementById("facilities");
+            c.style.display = "none";
+            var d = document.getElementById("pricing");
+            d.style.display = "none";
+            var e = document.getElementById("imagesmenu");
+            e.style.display = "none";
+            var f = document.getElementById("website");
+            f.style.display = "none";
+            var g = document.getElementById("legalDocument");
+            g.style.display = "none";
+        }
+
+        function imagesmenu() {
+            var a = document.getElementById("imagesmenu");
+            a.style.display = "block";
+            var b = document.getElementById("generalInfo");
+            b.style.display = "none";
+            var c = document.getElementById("facilities");
+            c.style.display = "none";
+            var d = document.getElementById("pricing");
+            d.style.display = "none";
+            var e = document.getElementById("ownercp");
+            e.style.display = "none";
+            var f = document.getElementById("website");
+            f.style.display = "none";
+            var g = document.getElementById("legalDocument");
+            g.style.display = "none";
+        }
+
+        function website() {
+            var a = document.getElementById("website");
+            a.style.display = "block";
+            var b = document.getElementById("generalInfo");
+            b.style.display = "none";
+            var c = document.getElementById("facilities");
+            c.style.display = "none";
+            var d = document.getElementById("pricing");
+            d.style.display = "none";
+            var e = document.getElementById("ownercp");
+            e.style.display = "none";
+            var f = document.getElementById("imagesmenu");
+            f.style.display = "none";
+            var g = document.getElementById("legalDocument");
+            g.style.display = "none";
+        }
+
+        function legalDocument() {
+            var a = document.getElementById("legalDocument");
+            a.style.display = "block";
+            var b = document.getElementById("generalInfo");
+            b.style.display = "none";
+            var c = document.getElementById("facilities");
+            c.style.display = "none";
+            var d = document.getElementById("pricing");
+            d.style.display = "none";
+            var e = document.getElementById("ownercp");
+            e.style.display = "none";
+            var f = document.getElementById("imagesmenu");
+            f.style.display = "none";
+            var g = document.getElementById("website");
+            g.style.display = "none";
+        }
+    </script>
+    <!-- Select All in Facilities-->
+    <script>
+        // Select All
+        function toggle(source) {
+            checkboxes = document.getElementsByName('foo');
+            for (var i = 0, n = checkboxes.length; i < n; i++) {
+                checkboxes[i].checked = source.checked;
+            }
+        }
+        // None
+        function toggle2(source) {
+            checkboxes = document.getElementsByName('foo');
+            for (var i = 0, n = checkboxes.length; i < n; i++) {
+                checkboxes[i].checked = source.unchecked;
+            }
         }
     </script>
 </body>
