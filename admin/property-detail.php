@@ -325,20 +325,20 @@
                                 <label for="pool">Pool</label>
                             </div>
                             <div class="">
-                                <input type="checkbox" id="airconditioner" name="airconditioner" value="airconditioner" class="-mt-1 mr-1 form-checkbox border-2 border-bvr10 text-bvr20">
-                                <label for="airconditioner"> Air Conditioner</label>
+                                <input type="checkbox" id="security" name="security" value="security" class="-mt-1 mr-1 form-checkbox border-2 border-bvr10 text-bvr20">
+                                <label for="security"> Security</label>
                             </div>
                             <div class="">
-                                <input type="checkbox" id="cabletv" name="cabletv" value="cabletv" class="-mt-1 mr-1 form-checkbox border-2 border-bvr10 text-bvr20">
-                                <label for="cabletv">Cable Tv</label>
+                                <input type="checkbox" id="storage" name="storage" value="storage" class="-mt-1 mr-1 form-checkbox border-2 border-bvr10 text-bvr20">
+                                <label for="storage">Storage</label>
                             </div>
                             <div class="">
-                                <input type="checkbox" id="diningarea" name="diningarea" value="diningarea" class="-mt-1 mr-1 form-checkbox border-2 border-bvr10 text-bvr20">
-                                <label for="diningarea">Dining Area</label>
+                                <input type="checkbox" id="suitable" name="suitable" value="suitable" class="-mt-1 mr-1 form-checkbox border-2 border-bvr10 text-bvr20">
+                                <label for="suitable">Suitable for Events</label>
                             </div>
                             <div class="">
-                                <input type="checkbox" id="airconditioner" name="airconditioner" value="airconditioner" class="-mt-1 mr-1 form-checkbox border-2 border-bvr10 text-bvr20">
-                                <label for="airconditioner"> Air Conditioner</label>
+                                <input type="checkbox" id="washer" name="washer" value="washer" class="-mt-1 mr-1 form-checkbox border-2 border-bvr10 text-bvr20">
+                                <label for="washer"> Washer or Laundry</label>
                             </div>
                             <div class="">
                                 <input type="checkbox" id="cabletv" name="cabletv" value="cabletv" class="-mt-1 mr-1 form-checkbox border-2 border-bvr10 text-bvr20">
