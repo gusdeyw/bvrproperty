@@ -251,91 +251,91 @@
                     <div class="px-3 py-2 grid grid-cols-7 gap-4">
                         <div class="col-span-4">
                             <div class="flex w-full">
-                                <div class="w-8 text-bvr2"><i class="fas fa-fan"></i></div>
+                                <div class="w-8 text-bvr20"><i class="fas fa-fan"></i></div>
                                 <p>Air Conditioner</p>
                             </div>
                         </div>
                         <div class="col-span-3">
                             <div class="flex w-full">
-                                <div class="w-8 text-bvr2"><i class="fas fa-tv"></i></div>
+                                <div class="w-8 text-bvr20"><i class="fas fa-tv"></i></div>
                                 <p>Cable TV</p>
                             </div>
                         </div>
                         <div class="col-span-4">
                             <div class="flex w-full">
-                                <div class="w-8 text-bvr2"><i class="fas fa-utensils"></i></div>
+                                <div class="w-8 text-bvr20"><i class="fas fa-utensils"></i></div>
                                 <p>Dining Area</p>
                             </div>
                         </div>
                         <div class="col-span-3">
                             <div class="flex w-full">
-                                <div class="w-8 text-bvr2"><i class="fas fa-plug"></i></div>
+                                <div class="w-8 text-bvr20"><i class="fas fa-plug"></i></div>
                                 <p>Electricity</p>
                             </div>
                         </div>
                         <div class="col-span-4">
                             <div class="flex w-full">
-                                <div class="w-8 text-bvr2"><i class="fas fa-warehouse"></i></div>
+                                <div class="w-8 text-bvr20"><i class="fas fa-warehouse"></i></div>
                                 <p>Garage</p>
                             </div>
                         </div>
                         <div class="col-span-3">
                             <div class="flex w-full">
-                                <div class="w-8 text-bvr2"><i class="fas fa-home"></i></div>
+                                <div class="w-8 text-bvr20"><i class="fas fa-home"></i></div>
                                 <p>Gazebo</p>
                             </div>
                         </div>
                         <div class="col-span-4">
                             <div class="flex w-full">
-                                <div class="w-8 text-bvr2"><i class="fas fa-globe"></i></div>
+                                <div class="w-8 text-bvr20"><i class="fas fa-globe"></i></div>
                                 <p>Internet</p>
                             </div>
                         </div>
                         <div class="col-span-3">
                             <div class="flex w-full">
-                                <div class="w-8 text-bvr2"><i class="far fa-hat-chef"></i></div>
+                                <div class="w-8 text-bvr20"><i class="far fa-hat-chef"></i></div>
                                 <p>Kitchen</p>
                             </div>
                         </div>
                         <div class="col-span-4">
                             <div class="flex w-full">
-                                <div class="w-8 text-bvr2"><i class="fas fa-level-up-alt"></i></div>
+                                <div class="w-8 text-bvr20"><i class="fas fa-level-up-alt"></i></div>
                                 <p>Level</p>
                             </div>
                         </div>
                         <div class="col-span-3">
                             <div class="flex w-full">
-                                <div class="w-8 text-bvr2"><i class="fas fa-swimmer"></i></div>
+                                <div class="w-8 text-bvr20"><i class="fas fa-swimmer"></i></div>
                                 <p>Pool</p>
                             </div>
                         </div>
                         <div class="col-span-4">
                             <div class="flex w-full">
-                                <div class="w-8 text-bvr2"><i class="fad fa-shield"></i></div>
+                                <div class="w-8 text-bvr20"><i class="fad fa-shield"></i></div>
                                 <p>Security</p>
                             </div>
                         </div>
                         <div class="col-span-3">
                             <div class="flex w-full">
-                                <div class="w-8 text-bvr2"><i class="fas fa-box"></i></div>
+                                <div class="w-8 text-bvr20"><i class="fas fa-box"></i></div>
                                 <p>Storage</p>
                             </div>
                         </div>
                         <div class="col-span-4">
                             <div class="flex w-full">
-                                <div class="w-8 text-bvr2"><i class="fas fa-washer"></i></div>
+                                <div class="w-8 text-bvr20"><i class="fas fa-washer"></i></div>
                                 <p>Washer or Laundry</p>
                             </div>
                         </div>
                         <div class="col-span-3">
                             <div class="flex w-full">
-                                <div class="w-8 text-bvr2"><i class="fas fa-water"></i></div>
+                                <div class="w-8 text-bvr20"><i class="fas fa-water"></i></div>
                                 <p>Water Resource</p>
                             </div>
                         </div>
                         <div class="col-span-4">
                             <div class="flex w-full">
-                                <div class="w-8 text-bvr2"><i class="fas fa-wifi"></i></div>
+                                <div class="w-8 text-bvr20"><i class="fas fa-wifi"></i></div>
                                 <p>Wi-fi</p>
                             </div>
                         </div>
@@ -351,40 +351,40 @@
                     <p class=""><strong>SALES AGENT:</strong> Ceri</p>
                     <div class="mt-1 grid grid-cols-5 gap-2">
                         <!-- Share Logo -->
-                        <div class="col-span-1 h-10 bg-white border-2 border-bvr2">
+                        <div class="col-span-1 h-10 bg-white border-2 border-bvr20">
                             <div class="w-max mx-auto mt-1 h-4">
                                 <i class=" fab fa-facebook-f"></i>
                             </div>
                         </div>
-                        <div class="col-span-1 h-10 bg-white border-2 border-bvr2">
+                        <div class="col-span-1 h-10 bg-white border-2 border-bvr20">
                             <div class="w-max mx-auto mt-1 h-4">
                                 <i class="far fa-file-pdf"></i>
                             </div>
                         </div>
-                        <div class="col-span-1 h-10 bg-white border-2 border-bvr2">
+                        <div class="col-span-1 h-10 bg-white border-2 border-bvr20">
                             <div class="w-max mx-auto mt-1 h-4">
                                 <i class="far fa-envelope"></i>
                             </div>
                         </div>
-                        <div class="col-span-1 h-10 bg-white border-2 border-bvr2">
+                        <div class="col-span-1 h-10 bg-white border-2 border-bvr20">
                             <div class="w-max mx-auto mt-1 h-4">
                                 <i class="fab fa-twitter"></i>
                             </div>
                         </div>
-                        <div class="col-span-1 h-10 bg-white border-2 border-bvr2">
+                        <div class="col-span-1 h-10 bg-white border-2 border-bvr20">
                             <div class="w-max mx-auto mt-1 h-4">
                                 <i class="fab fa-linkedin-in"></i>
                             </div>
                         </div>
                     </div>
                     <div class="grid grid-cols-2 gap-4 mt-2">
-                        <div class="col-span-1 w-full px-2 py-2 bg-white border-2 border-bvr2">
+                        <div class="col-span-1 w-full px-2 py-2 bg-white border-2 border-bvr20">
                             <div class="w-max m-auto flex">
                                 <i class="mt-1 px-1 fad fa-calendar-alt"></i>
                                 <p class="px-1">Schedule Visit</p>
                             </div>
                         </div>
-                        <div class="col-span-1 w-full px-2 py-2 bg-white border-2 border-bvr2">
+                        <div class="col-span-1 w-full px-2 py-2 bg-white border-2 border-bvr20">
                             <div class="w-max m-auto flex">
                                 <i class="px-1 mt-1.5 fab fa-whatsapp fa-lg"></i>
                                 <p class="px-1">Whatsapp</p>
@@ -426,7 +426,7 @@
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 my-10">
                 <!-- Hasil 1 -->
-                <div class="bg-white filter drop-shadow-lg border-2 hover:border-bvr2 col-span-1">
+                <div class="bg-white filter drop-shadow-lg border-2 hover:border-bvr20 col-span-1">
                     <a href="page-detail.php" class="">
                         <div class="p-3">
                             <p class="font-semibold">CHARMING BRAND NEW VILLA</p>
@@ -434,7 +434,7 @@
                         </div>
                         <img class="object-cover h-56 w-full" src="public/images/search1.png">
                         <div class="ml-auto -mt-48 w-max">
-                            <p class="relative py-1 px-2 text-sm bg-bvr2 text-white">Good Deal</p>
+                            <p class="relative py-1 px-2 text-sm bg-bvr20 text-white">Good Deal</p>
                         </div>
                         <div class="-mt-3"></div>
                         <div class="px-4 py-3 grid grid-cols-2 gap-3 mt-44">
@@ -461,7 +461,7 @@
                     </a>
                 </div>
                 <!-- Hasil 1 -->
-                <div class="bg-white filter drop-shadow-lg border-2 hover:border-bvr2 col-span-1">
+                <div class="bg-white filter drop-shadow-lg border-2 hover:border-bvr20 col-span-1">
                     <a href="page-detail.php" class="">
                         <div class="p-3">
                             <p class="font-semibold">CHARMING BRAND NEW VILLA</p>
@@ -469,7 +469,7 @@
                         </div>
                         <img class="object-cover h-56 w-full" src="public/images/search1.png">
                         <div class="ml-auto -mt-48 w-max">
-                            <p class="relative py-1 px-2 text-sm bg-bvr2 text-white">Good Deal</p>
+                            <p class="relative py-1 px-2 text-sm bg-bvr20 text-white">Good Deal</p>
                         </div>
                         <div class="-mt-3"></div>
                         <div class="px-4 py-3 grid grid-cols-2 gap-3 mt-44">
@@ -496,7 +496,7 @@
                     </a>
                 </div>
                 <!-- Hasil 1 -->
-                <div class="bg-white filter drop-shadow-lg border-2 hover:border-bvr2 col-span-1">
+                <div class="bg-white filter drop-shadow-lg border-2 hover:border-bvr20 col-span-1">
                     <a href="page-detail.php" class="">
                         <div class="p-3">
                             <p class="font-semibold">CHARMING BRAND NEW VILLA</p>
@@ -504,7 +504,7 @@
                         </div>
                         <img class="object-cover h-56 w-full" src="public/images/search1.png">
                         <div class="ml-auto -mt-48 w-max">
-                            <p class="relative py-1 px-2 text-sm bg-bvr2 text-white">Good Deal</p>
+                            <p class="relative py-1 px-2 text-sm bg-bvr20 text-white">Good Deal</p>
                         </div>
                         <div class="-mt-3"></div>
                         <div class="px-4 py-3 grid grid-cols-2 gap-3 mt-44">

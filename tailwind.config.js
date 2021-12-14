@@ -11,9 +11,10 @@ module.exports = {
       },
       colors: {
         orange: colors.orange,
-        bvr1: '#EF501F',
-        bvr2: '#EF3700',
-        bvr3: '#DF3400',
+        bvr10: '#EF501F',
+        bvr20: '#EF3700',
+        bvr21: '#FFDBD0',
+        bvr30: '#DF3400',
       },
     },
   },

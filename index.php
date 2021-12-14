@@ -49,21 +49,21 @@
                 <div class="swiper-slide flex-col">
                     <img class="object-cover relative" src="public/images/tes.webp">
                     <div class="ml-auto">
-                        <p class="relative -mt-88 py-3 px-7 font-semibold bg-bvr2 text-white">Exclusive</p>
+                        <p class="relative -mt-88 py-3 px-7 font-semibold bg-bvr20 text-white">Exclusive</p>
                     </div>
                 </div>
                 <!-- Slider 2 -->
                 <div class="swiper-slide flex-col">
                     <img class="object-cover relative " src="public/images/tes.webp">
                     <div class="ml-auto">
-                        <p class="relative -mt-88 py-3 px-7 font-semibold bg-bvr2 text-white">Exclusive</p>
+                        <p class="relative -mt-88 py-3 px-7 font-semibold bg-bvr20 text-white">Exclusive</p>
                     </div>
                 </div>
                 <!-- Slider 3 -->
                 <div class="swiper-slide flex-col">
                     <img class="object-cover relative " src="public/images/tes.webp">
                     <div class="ml-auto">
-                        <p class="relative -mt-88 py-3 px-7 font-semibold bg-bvr2 text-white">Exclusive</p>
+                        <p class="relative -mt-88 py-3 px-7 font-semibold bg-bvr20 text-white">Exclusive</p>
                     </div>
                 </div>
             </div>
@@ -133,7 +133,7 @@
                 </select>
                 <input type='text' placeholder="Min. Area" class="border-2 border-gray-300 bg-white h-10 px-4 text-sm  w-2/12">
                 <input type='text' placeholder="Max. Area" class="border-2 border-gray-300 bg-white h-10 px-4 text-sm  w-2/12">
-                <button class="ml-3 border-2  bg-bvr2 hover:bg-bvr3 text-white h-10 text-center text-base w-1/12">
+                <button class="ml-3 border-2  bg-bvr20 hover:bg-bvr30 text-white h-10 text-center text-base w-1/12">
                     Search
                 </button>
             </div>
@@ -195,14 +195,14 @@
                 <input type='text' placeholder="Max. Area" class="border-2 border-gray-300 bg-white h-10 px-4 text-sm  w-6/12">
                 </select>
             </div>
-            <button class="border-2  mt-2 bg-bvr2 hover:bg-bvr3 text-white h-10 text-center text-base w-full">
+            <button class="border-2  mt-2 bg-bvr20 hover:bg-bvr30 text-white h-10 text-center text-base w-full">
                 Search
             </button>
         </div>
         <!-- Result -->
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 my-10">
             <!-- Hasil 1 -->
-            <div class="bg-white filter drop-shadow-lg border-2 hover:border-bvr2 col-span-1">
+            <div class="bg-white filter drop-shadow-lg border-2 hover:border-bvr20 col-span-1">
                 <a href="page-detail.php" class="">
                     <div class="p-3">
                         <p class="font-semibold">CHARMING BRAND NEW VILLA</p>
@@ -210,7 +210,7 @@
                     </div>
                     <img class="object-cover h-56 w-full" src="public/images/search1.png">
                     <div class="ml-auto -mt-48 w-max">
-                        <p class="relative py-1 px-2 text-sm bg-bvr2 text-white">Good Deal</p>
+                        <p class="relative py-1 px-2 text-sm bg-bvr20 text-white">Good Deal</p>
                     </div>
                     <div class="-mt-3"></div>
                     <div class="px-4 py-3 grid grid-cols-2 gap-3 mt-44">
@@ -237,7 +237,7 @@
                 </a>
             </div>
             <!-- Hasil 1 -->
-            <div class="bg-white filter drop-shadow-lg border-2 hover:border-bvr2 col-span-1">
+            <div class="bg-white filter drop-shadow-lg border-2 hover:border-bvr20 col-span-1">
                 <a href="page-detail.php" class="">
                     <div class="p-3">
                         <p class="font-semibold">CHARMING BRAND NEW VILLA</p>
@@ -245,7 +245,7 @@
                     </div>
                     <img class="object-cover h-56 w-full" src="public/images/search1.png">
                     <div class="ml-auto -mt-48 w-max">
-                        <p class="relative py-1 px-2 text-sm bg-bvr2 text-white">Good Deal</p>
+                        <p class="relative py-1 px-2 text-sm bg-bvr20 text-white">Good Deal</p>
                     </div>
                     <div class="-mt-3"></div>
                     <div class="px-4 py-3 grid grid-cols-2 gap-3 mt-44">
@@ -272,7 +272,7 @@
                 </a>
             </div>
             <!-- Hasil 1 -->
-            <div class="bg-white filter drop-shadow-lg border-2 hover:border-bvr2 col-span-1">
+            <div class="bg-white filter drop-shadow-lg border-2 hover:border-bvr20 col-span-1">
                 <a href="page-detail.php" class="">
                     <div class="p-3">
                         <p class="font-semibold">CHARMING BRAND NEW VILLA</p>
@@ -280,7 +280,7 @@
                     </div>
                     <img class="object-cover h-56 w-full" src="public/images/search1.png">
                     <div class="ml-auto -mt-48 w-max">
-                        <p class="relative py-1 px-2 text-sm bg-bvr2 text-white">Good Deal</p>
+                        <p class="relative py-1 px-2 text-sm bg-bvr20 text-white">Good Deal</p>
                     </div>
                     <div class="-mt-3"></div>
                     <div class="px-4 py-3 grid grid-cols-2 gap-3 mt-44">
@@ -307,7 +307,7 @@
                 </a>
             </div>
             <!-- Hasil 1 -->
-            <div class="bg-white filter drop-shadow-lg border-2 hover:border-bvr2 col-span-1">
+            <div class="bg-white filter drop-shadow-lg border-2 hover:border-bvr20 col-span-1">
                 <a href="page-detail.php" class="">
                     <div class="p-3">
                         <p class="font-semibold">CHARMING BRAND NEW VILLA</p>
@@ -315,7 +315,7 @@
                     </div>
                     <img class="object-cover h-56 w-full" src="public/images/search1.png">
                     <div class="ml-auto -mt-48 w-max">
-                        <p class="relative py-1 px-2 text-sm bg-bvr2 text-white">Good Deal</p>
+                        <p class="relative py-1 px-2 text-sm bg-bvr20 text-white">Good Deal</p>
                     </div>
                     <div class="-mt-3"></div>
                     <div class="px-4 py-3 grid grid-cols-2 gap-3 mt-44">
