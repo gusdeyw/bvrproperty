@@ -36,7 +36,7 @@
             <div class="bg-white mt-3">
                 <!-- Hasil 1 -->
                 <div class="pt-3 bg-white hover:bg-gray-200 px-6">
-                    <a href="" class="hover:bg-gray-100">
+                    <a href="blog-detail.php" class="hover:bg-gray-100">
                         <div class="grid grid-cols-5 gap-5 ">
                             <div class="col-span-2">
                                 Best Tourist attractions in Ubud
