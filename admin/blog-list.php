@@ -1,5 +1,5 @@
 <?php include '../admin/layout/header.php'; ?>
-<title>Property List</title>
+<title>Blog List</title>
 </head>
 
 <body class="bg-gray-100 font-sans flex">
@@ -11,11 +11,11 @@
         <main class="w-full flex-grow p-8">
             <div class="flex w-full">
                 <p class="text-xl font-semibold text-gray-700 items-bottom my-auto">
-                    Property List
+                    Blog List
                 </p>
 
                 <div class="flex ml-auto bg-white rounded-lg hover:bg-bvr20 hover:text-white text-bvr20">
-                    <a href="" class="px-4 py-2 flex">
+                    <a href="blog-add.php" class="px-4 py-2 flex">
                         <i class="fas fa-plus-circle mt-1 mr-1"></i>
                         <p>Add New Blog</p>
                     </a>

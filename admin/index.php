@@ -26,7 +26,7 @@
                     <p class="text-xl font-semibold text-gray-700">
                         Property Overview
                     </p>
-                    <div class="grid grid-cols-2 gap-5 mt-5">
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-5 mt-5">
                         <div>
                             <div class="flex">
                                 <div class="py-4 px-5 bg-bvr21 text-bvr30 rounded-lg">
@@ -41,8 +41,8 @@
                         <div>
                             <div class="flex">
                                 <div class="py-4 px-5 bg-green-100 text-green-800 rounded-lg">
-                                <i class="fad fa-house-return"></i>
-                                                            </div>
+                                    <i class="fas fa-school fa-lg"></i>
+                                </div>
                                 <div class="ml-2">
                                     <p class="text-gray-500">Total Lead</p>
                                     <p class="text-xl font-bold">1453

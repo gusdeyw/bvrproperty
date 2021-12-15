@@ -11,11 +11,11 @@
             Dashboard
         </a>
         <a href="/admin/property-list.php" class="hover:bg-bvr21 hover:text-bvr30 flex items-center py-4 pl-6 nav-item">
-            <i class="fas fa-sticky-note mr-3"></i>
+            <i class="fas fa-place-of-worship mr-3"></i>
             Property List
         </a>
         <a href="/admin/blog.php" class="hover:bg-bvr21 hover:text-bvr30 flex items-center py-4 pl-6 nav-item">
-            <i class="fas fa-sticky-note mr-3"></i>
+            <i class="fas fa-newspaper mr-3"></i>
             Blog
         </a>
     </nav>
@@ -39,7 +39,7 @@
     <!-- Mobile Header & Nav -->
     <header x-data="{ isOpen: false }" class="w-full bg-sidebar py-5 px-6 sm:hidden bg-white">
         <div class="flex items-center justify-between">
-            <a href="" class="text-gray-500 text-3xl font-semibold uppercase hover:text-gray-700">
+            <a href="/admin/index.php" class="text-gray-500 text-3xl font-semibold uppercase hover:text-gray-700">
                 <img src="/public/images/logo-black.png" class="w-1/2">
             </a>
             <button @click="isOpen = !isOpen" class="bg-white text-bvr20 text-3xl focus:outline-none">
@@ -50,16 +50,16 @@
 
         <!-- Dropdown Nav -->
         <nav :class="isOpen ? 'flex': 'hidden'" class="flex flex-col pt-4 z-30 text-bvr20">
-            <a href="index.html" class="flex items-center py-2 pl-4">
+            <a href="index.php" class="flex items-center py-2 pl-4">
                 <i class="fas fa-tachometer-alt mr-3"></i>
                 Dashboard
             </a>
-            <a href="/admin/keloladata.php" class="flex items-center py-2 pl-4">
-                <i class="fas fa-sticky-note mr-3"></i>
+            <a href="/admin/property-list.php" class="flex items-center py-2 pl-4">
+                <i class="fas fa-place-of-worship mr-3"></i>
                 Property List
             </a>
-            <a href="/admin/keloladata.php" class="flex items-center py-2 pl-4">
-                <i class="fas fa-sticky-note mr-3"></i>
+            <a href="/admin/blog-list.php" class="flex items-center py-2 pl-4">
+                <i class="fas fa-newspaper mr-3"></i>
                 Blog
             </a>
             <a href="#" class="flex items-center py-2 pl-4 nav-item">

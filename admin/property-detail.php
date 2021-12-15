@@ -8,14 +8,14 @@
 
     <div class="w-full overflow-x-hidden border-t flex flex-col">
         <form action="" method="POST" enctype="multipart/form-data">
-            <main class="w-full flex-grow p-8">
+            <main class="w-full flex-grow px-4 py-8 sm:p-8">
                 <div class="flex w-full">
                     <p class="text-xl font-semibold text-gray-700 items-bottom my-auto">
                         Property Detail
                     </p>
                 </div>
                 <div class="bg-gray-300 rounded-t-lg mt-5 px-10 py-7">
-                    <div class="grid grid-cols-2 gap-x-12 gap-y-5">
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-x-12 gap-y-5">
                         <div class="">
                             <label class="font-semibold">Ref ID</label>
                             <input type="text" class="w-full mt-1 py-1 px-4 focus:outline-none focus:ring-2 focus:ring-bvr20 focus:border-transparent rounded-md">
@@ -50,41 +50,47 @@
                         </div>
                     </div>
                 </div>
-                <div class="bg-gray-200 flex text-white">
-                    <!--  -->
-                    <a onclick="generalInfo()" id="generalInfo2" class="cursor-pointer px-4 py-2 border-2 bg-bvr20 border-gray-700 hover:bg-bvr20 hover:border-bvr3">
-                        General Info
-                    </a>
-                    <!--  -->
-                    <a onclick="facilities()" id="facilities2" class="cursor-pointer px-4 py-2 border-2 bg-gray-400 border-gray-700 hover:bg-bvr20 hover:border-bvr3">
-                        Facilities
-                    </a>
-                    <!--  -->
-                    <a onclick="pricing()" id="pricing2" class="cursor-pointer px-4 py-2 border-2 bg-gray-400 border-gray-700 hover:bg-bvr20 hover:border-bvr3">
-                        Pricing
-                    </a>
-                    <!--  -->
-                    <a onclick="ownercp()" id="ownercp2" class="cursor-pointer px-4 py-2 border-2 bg-gray-400 border-gray-700 hover:bg-bvr20 hover:border-bvr3">
-                        Owner/Contact Person
-                    </a>
-                    <!--  -->
-                    <a onclick="imagesmenu()" id="imagesmenu2" class="cursor-pointer px-4 py-2 border-2 bg-gray-400 border-gray-700 hover:bg-bvr20 hover:border-bvr3">
-                        Images
-                    </a>
-                    <!--  -->
-                    <a onclick="website()" id="website2" class="cursor-pointer px-4 py-2 border-2 bg-gray-400 border-gray-700 hover:bg-bvr20 hover:border-bvr3">
-                        Website
-                    </a>
-                    <!--  -->
-                    <a onclick="legalDocument()" id="legalDocument2" class="cursor-pointer px-4 py-2 border-2 bg-gray-400 border-gray-700 hover:bg-bvr20 hover:border-bvr3">
-                        Legal Document
-                    </a>
+                <div class=" lg:flex w-full bg-gray-200">
+                    <div class="bg-gray-200 flex lg:flex-1 text-white">
+                        <!--  -->
+                        <a onclick="generalInfo()" id="generalInfo2" class="flex-1 cursor-pointer px-4 py-2 border-2 bg-bvr20 border-gray-700 hover:bg-bvr20 hover:border-bvr3">
+                            General Info
+                        </a>
+                        <!--  -->
+                        <a onclick="facilities()" id="facilities2" class="flex-1 cursor-pointer px-4 py-2 border-2 bg-gray-400 border-gray-700 hover:bg-bvr20 hover:border-bvr3">
+                            Facilities
+                        </a>
+                        <!--  -->
+                        <a onclick="pricing()" id="pricing2" class="flex-1 cursor-pointer px-4 py-2 border-2 bg-gray-400 border-gray-700 hover:bg-bvr20 hover:border-bvr3">
+                            Pricing
+                        </a>
 
+                    </div>
+                    <div class="bg-gray-200 flex lg:flex-1 text-white">
+                        <!--  -->
+                        <a onclick="ownercp()" id="ownercp2" class="flex-1 cursor-pointer px-4 py-2 border-2 bg-gray-400 border-gray-700 hover:bg-bvr20 hover:border-bvr3">
+                            Owner/Contact Person
+                        </a>
+                        <!--  -->
+                        <a onclick="imagesmenu()" id="imagesmenu2" class="flex-1 cursor-pointer px-4 py-2 border-2 bg-gray-400 border-gray-700 hover:bg-bvr20 hover:border-bvr3">
+                            Images
+                        </a>
+                    </div>
+                    <div class="bg-gray-200 flex text-white lg:flex-1">
+                        <!--  -->
+                        <a onclick="website()" id="website2" class="w-max flex-1 cursor-pointer px-4 py-2 border-2 bg-gray-400 border-gray-700 hover:bg-bvr20 hover:border-bvr3">
+                            Website
+                        </a>
+                        <!--  -->
+                        <a onclick="legalDocument()" id="legalDocument2" class="w-max flex-1 cursor-pointer px-4 py-2 border-2 bg-gray-400 border-gray-700 hover:bg-bvr20 hover:border-bvr3">
+                            Legal Document
+                        </a>
+                    </div>
                 </div>
                 <!-- General Info -->
                 <div id="generalInfo" class="bg-gray-200 px-10 pb-7">&nbsp;
-                    <div class="grid grid-cols-2 gap-x-12 gap-y-5">
-                        <div class="col-span-2">
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-x-12 gap-y-5">
+                        <div class="col-span-1 lg:col-span-2">
                             <label class="font-semibold">Detail Description</label>
                             <textarea type="message" rows="14" class="w-full mt-1 py-2 px-4 focus:outline-none focus:ring-2 focus:ring-bvr20 focus:border-transparent rounded-md"></textarea>
                         </div>
@@ -271,7 +277,7 @@
                             <input type="checkbox" onClick="toggle2(this)" id="checkall2" class="hidden">
                             <label for="checkall2" class="font-semibold text-bvr20 cursor-pointer">None </label>
                         </div>
-                        <div class="grid grid-cols-3 gap-x-6  gap-y-2 mt-2">
+                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-6  gap-y-2 mt-2">
                             <div class="">
                                 <input type="checkbox" id="airconditioner" name="foo" value="airconditioner" class="-mt-1 mr-1 form-checkbox border-2 border-bvr10 text-bvr20">
                                 <label for="airconditioner"> Air Conditioner</label>
@@ -358,7 +364,7 @@
                 </div>
                 <!-- Pricing -->
                 <div id="pricing" class="bg-gray-200 px-10 pb-7 hidden">&nbsp;
-                    <div class="grid grid-cols-2 gap-x-12 gap-y-5">
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-x-12 gap-y-5">
                         <div class="">
                             <label class="font-semibold">Asking Price (IDR) (Include BVR commission fee)</label>
                             <input type="number" class="w-full mt-1 py-1 px-4 focus:outline-none focus:ring-2 focus:ring-bvr20 focus:border-transparent rounded-md">
@@ -375,7 +381,7 @@
                 </div>
                 <!-- Ownercp -->
                 <div id="ownercp" class="bg-gray-200 px-10 pb-7 hidden">&nbsp;
-                    <div class="grid grid-cols-2 gap-x-12 gap-y-5">
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-x-12 gap-y-5">
                         <div class="">
                             <label class="font-semibold">Owner/Contact Person Name</label>
                             <input type="text" class="w-full mt-1 py-1 px-4 focus:outline-none focus:ring-2 focus:ring-bvr20 focus:border-transparent rounded-md">
@@ -404,29 +410,29 @@
                         <label class="font-semibold">Property Images Upload</label>
                         <input type="file" multiple class="w-full mt-1 py-1 focus:outline-none focus:ring-2 focus:ring-bvr20 focus:border-transparent rounded-md">
                         <p class="mt-4 font-semibold text-base">Current photo in database</p>
-                        <div class="grid grid-cols-4 gap-x-5 gap-y-3 mt-2">
+                        <div class="grid grid-cols-2 lg:grid-cols-3 gap-x-5 gap-y-3 mt-2">
                             <div>
-                                <img src="/public/images/search1.png" class="w-full h-36 object-fill">
+                                <img src="/public/images/search1.png" class="w-full h-36 object-cover">
                                 <p class="px-4 pt-2 pb-1 bg-red-200 text-red-700 text-sm">Image-929189389189</p>
                                 <p class="px-4 pb-1 bg-red-200 text-black text-sm">357.98 kb</p>
                             </div>
                             <div>
-                                <img src="/public/images/search1.png" class="w-full h-36 object-fill">
+                                <img src="/public/images/search1.png" class="w-full h-36 object-cover">
                                 <p class="px-4 pt-2 pb-1 bg-red-200 text-red-700 text-sm">Image-929189389189</p>
                                 <p class="px-4 pb-1 bg-red-200 text-black text-sm">357.98 kb</p>
                             </div>
                             <div>
-                                <img src="/public/images/search1.png" class="w-full h-36 object-fill">
+                                <img src="/public/images/search1.png" class="w-full h-36 object-cover">
                                 <p class="px-4 pt-2 pb-1 bg-red-200 text-red-700 text-sm">Image-929189389189</p>
                                 <p class="px-4 pb-1 bg-red-200 text-black text-sm">357.98 kb</p>
                             </div>
                             <div>
-                                <img src="/public/images/search1.png" class="w-full h-36 object-fill">
+                                <img src="/public/images/search1.png" class="w-full h-36 object-cover">
                                 <p class="px-4 pt-2 pb-1 bg-red-200 text-red-700 text-sm">Image-929189389189</p>
                                 <p class="px-4 pb-1 bg-red-200 text-black text-sm">357.98 kb</p>
                             </div>
                             <div>
-                                <img src="/public/images/search1.png" class="w-full h-36 object-fill">
+                                <img src="/public/images/search1.png" class="w-full h-36 object-cover">
                                 <p class="px-4 pt-2 pb-1 bg-red-200 text-red-700 text-sm">Image-929189389189</p>
                                 <p class="px-4 pb-1 bg-red-200 text-black text-sm">357.98 kb</p>
                             </div>
@@ -435,7 +441,7 @@
                 </div>
                 <!-- Website -->
                 <div id="website" class="bg-gray-200 px-10 pb-7 hidden">&nbsp;
-                    <div class="grid grid-cols-2 gap-x-12 gap-y-5">
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-x-12 gap-y-5">
                         <div class="">
                             <label class="font-semibold">Website Headline</label>
                             <input type="text" class="w-full mt-1 py-1 px-4 focus:outline-none focus:ring-2 focus:ring-bvr20 focus:border-transparent rounded-md">
@@ -462,29 +468,29 @@
                         <label class="font-semibold">Legal Document Upload (Images Only)</label>
                         <input type="file" multiple class="w-full mt-1 py-1 focus:outline-none focus:ring-2 focus:ring-bvr20 focus:border-transparent rounded-md">
                         <p class="mt-4 font-semibold text-base">Current images in database</p>
-                        <div class="grid grid-cols-4 gap-x-5 gap-y-3 mt-2">
+                        <div class="grid grid-cols-2 lg:grid-cols-3 gap-x-5 gap-y-3 mt-2">
                             <div>
-                                <img src="/public/images/legal.png" class="w-full h-36 object-fill">
+                                <img src="/public/images/legal.png" class="w-full h-36 object-cover">
                                 <p class="px-4 pt-2 pb-1 bg-red-200 text-red-700 text-sm">Legal-929189389189</p>
                                 <p class="px-4 pb-1 bg-red-200 text-black text-sm">357.98 kb</p>
                             </div>
                             <div>
-                                <img src="/public/images/legal.png" class="w-full h-36 object-fill">
+                                <img src="/public/images/legal.png" class="w-full h-36 object-cover">
                                 <p class="px-4 pt-2 pb-1 bg-red-200 text-red-700 text-sm">Legal-929189389189</p>
                                 <p class="px-4 pb-1 bg-red-200 text-black text-sm">357.98 kb</p>
                             </div>
                             <div>
-                                <img src="/public/images/legal.png" class="w-full h-36 object-fill">
+                                <img src="/public/images/legal.png" class="w-full h-36 object-cover">
                                 <p class="px-4 pt-2 pb-1 bg-red-200 text-red-700 text-sm">Legal-929189389189</p>
                                 <p class="px-4 pb-1 bg-red-200 text-black text-sm">357.98 kb</p>
                             </div>
                             <div>
-                                <img src="/public/images/legal.png" class="w-full h-36 object-fill">
+                                <img src="/public/images/legal.png" class="w-full h-36 object-cover">
                                 <p class="px-4 pt-2 pb-1 bg-red-200 text-red-700 text-sm">Legal-929189389189</p>
                                 <p class="px-4 pb-1 bg-red-200 text-black text-sm">357.98 kb</p>
                             </div>
                             <div>
-                                <img src="/public/images/legal.png" class="w-full h-36 object-fill">
+                                <img src="/public/images/legal.png" class="w-full h-36 object-cover">
                                 <p class="px-4 pt-2 pb-1 bg-red-200 text-red-700 text-sm">Legal-929189389189</p>
                                 <p class="px-4 pb-1 bg-red-200 text-black text-sm">357.98 kb</p>
                             </div>
@@ -494,7 +500,7 @@
                             <input type="file" multiple class="w-full mt-1 py-1 focus:outline-none focus:ring-2 focus:ring-bvr20 focus:border-transparent rounded-md">
                         </div>
                         <p class="mt-4 font-semibold">Please Check (Make Sure The Photos Already Attached)</p>
-                        <div class="grid grid-cols-2 gap-x-5">
+                        <div class="grid grid-cols-1 lg:grid-cols-2 gap-x-5">
                             <div class="">
                                 <p class="mt-4 font-semibold mb-3">Mandatory</p>
                                 <div class="mt-1.5">
@@ -680,7 +686,7 @@
             f.style.display = "none";
             var g = document.getElementById("legalDocument");
             g.style.display = "none";
-             // color
+            // color
             var h = document.getElementById("ownercp2");
             h.style.backgroundColor = "#EF3700";
             var i = document.getElementById("generalInfo2");
@@ -712,8 +718,8 @@
             f.style.display = "none";
             var g = document.getElementById("legalDocument");
             g.style.display = "none";
-             // color
-             var h = document.getElementById("imagesmenu2");
+            // color
+            var h = document.getElementById("imagesmenu2");
             h.style.backgroundColor = "#EF3700";
             var i = document.getElementById("generalInfo2");
             i.style.backgroundColor = "#9CA3AF";
@@ -744,8 +750,8 @@
             f.style.display = "none";
             var g = document.getElementById("legalDocument");
             g.style.display = "none";
-              // color
-              var h = document.getElementById("website2");
+            // color
+            var h = document.getElementById("website2");
             h.style.backgroundColor = "#EF3700";
             var i = document.getElementById("generalInfo2");
             i.style.backgroundColor = "#9CA3AF";

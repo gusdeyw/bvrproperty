@@ -22,47 +22,47 @@
                 </div>
 
             </div>
-            <div class="mx-6 grid grid-cols-10 gap-5 mt-5">
+            <div class="mx-6 grid grid-cols-4 md:grid-cols-5 lg:grid-cols-10 gap-5 mt-5">
                 <div class="col-span-1">
                     Ref ID
                 </div>
                 <div class="col-span-3">
                     Name
                 </div>
-                <div class="col-span-1">
+                <div class="col-span-1 hidden md:inline">
                     Area
                 </div>
-                <div class="col-span-1">
+                <div class="col-span-1 hidden lg:inline">
                     Listing Type
                 </div>
-                <div class="col-span-2">
+                <div class="col-span-2 hidden lg:inline">
                     Property Type
                 </div>
-                <div class="col-span-2">
+                <div class="col-span-2 hidden lg:inline">
                     Price
                 </div>
             </div>
             <div class="bg-white mt-3">
                 <!-- Hasil 1 -->
-                <div class="pt-3 bg-white hover:bg-gray-200 px-6">
+                <div class="pt-3 bg-white hover:bg-gray-200 lg:px-6">
                     <a href="./property-detail.php" class="hover:bg-gray-100">
-                        <div class="grid grid-cols-10 gap-5 ">
+                    <div class="mx-6 grid grid-cols-4 md:grid-cols-5 lg:grid-cols-10 gap-5 mt-5">
                             <div class="col-span-1">
                                 PPR2790
                             </div>
                             <div class="col-span-3">
                                 CHARMING BRAND NEW VILLA
                             </div>
-                            <div class="col-span-1">
+                            <div class="col-span-1 hidden md:inline">
                                 Canggu
                             </div>
-                            <div class="col-span-1">
+                            <div class="col-span-1 hidden lg:inline">
                                 For Rent
                             </div>
-                            <div class="col-span-2">
+                            <div class="col-span-2 hidden lg:inline">
                                 Yearly Rental
                             </div>
-                            <div class="col-span-2">
+                            <div class="col-span-2 hidden lg:inline">
                                 <strong>500,000,000</strong> IDR Yearly
                             </div>
                         </div>
@@ -70,25 +70,25 @@
                     <hr class="mt-3">
                 </div>
                 <!-- Hasil 2 -->
-                <div class="pt-3 bg-white hover:bg-gray-200 px-6">
-                    <a href="" class="hover:bg-gray-100">
-                        <div class="grid grid-cols-10 gap-5 ">
+                <div class="pt-3 bg-white hover:bg-gray-200 lg:px-6">
+                    <a href="./property-detail.php" class="hover:bg-gray-100">
+                    <div class="mx-6 grid grid-cols-4 md:grid-cols-5 lg:grid-cols-10 gap-5 mt-5">
                             <div class="col-span-1">
                                 PPR2790
                             </div>
                             <div class="col-span-3">
                                 CHARMING BRAND NEW VILLA
                             </div>
-                            <div class="col-span-1">
+                            <div class="col-span-1 hidden md:inline">
                                 Canggu
                             </div>
-                            <div class="col-span-1">
+                            <div class="col-span-1 hidden lg:inline">
                                 For Rent
                             </div>
-                            <div class="col-span-2">
+                            <div class="col-span-2 hidden lg:inline">
                                 Yearly Rental
                             </div>
-                            <div class="col-span-2">
+                            <div class="col-span-2 hidden lg:inline">
                                 <strong>500,000,000</strong> IDR Yearly
                             </div>
                         </div>
@@ -96,25 +96,25 @@
                     <hr class="mt-3">
                 </div>
                 <!-- Hasil 3 -->
-                <div class="pt-3 bg-white hover:bg-gray-200 px-6">
-                    <a href="" class="hover:bg-gray-100">
-                        <div class="grid grid-cols-10 gap-5 ">
+                <div class="pt-3 bg-white hover:bg-gray-200 lg:px-6">
+                    <a href="./property-detail.php" class="hover:bg-gray-100">
+                    <div class="mx-6 grid grid-cols-4 md:grid-cols-5 lg:grid-cols-10 gap-5 mt-5">
                             <div class="col-span-1">
                                 PPR2790
                             </div>
                             <div class="col-span-3">
                                 CHARMING BRAND NEW VILLA
                             </div>
-                            <div class="col-span-1">
+                            <div class="col-span-1 hidden md:inline">
                                 Canggu
                             </div>
-                            <div class="col-span-1">
+                            <div class="col-span-1 hidden lg:inline">
                                 For Rent
                             </div>
-                            <div class="col-span-2">
+                            <div class="col-span-2 hidden lg:inline">
                                 Yearly Rental
                             </div>
-                            <div class="col-span-2">
+                            <div class="col-span-2 hidden lg:inline">
                                 <strong>500,000,000</strong> IDR Yearly
                             </div>
                         </div>
@@ -122,25 +122,25 @@
                     <hr class="mt-3">
                 </div>
                 <!-- Hasil 4 -->
-                <div class="pt-3 bg-white hover:bg-gray-200 px-6">
-                    <a href="" class="hover:bg-gray-100">
-                        <div class="grid grid-cols-10 gap-5 ">
+                <div class="pt-3 bg-white hover:bg-gray-200 lg:px-6">
+                    <a href="./property-detail.php" class="hover:bg-gray-100">
+                    <div class="mx-6 grid grid-cols-4 md:grid-cols-5 lg:grid-cols-10 gap-5 mt-5">
                             <div class="col-span-1">
                                 PPR2790
                             </div>
                             <div class="col-span-3">
                                 CHARMING BRAND NEW VILLA
                             </div>
-                            <div class="col-span-1">
+                            <div class="col-span-1 hidden md:inline">
                                 Canggu
                             </div>
-                            <div class="col-span-1">
+                            <div class="col-span-1 hidden lg:inline">
                                 For Rent
                             </div>
-                            <div class="col-span-2">
+                            <div class="col-span-2 hidden lg:inline">
                                 Yearly Rental
                             </div>
-                            <div class="col-span-2">
+                            <div class="col-span-2 hidden lg:inline">
                                 <strong>500,000,000</strong> IDR Yearly
                             </div>
                         </div>
@@ -148,25 +148,25 @@
                     <hr class="mt-3">
                 </div>
                 <!-- Hasil 5 -->
-                <div class="pt-3 bg-white hover:bg-gray-200 px-6">
-                    <a href="" class="hover:bg-gray-100">
-                        <div class="grid grid-cols-10 gap-5 ">
+                <div class="pt-3 bg-white hover:bg-gray-200 lg:px-6">
+                    <a href="./property-detail.php" class="hover:bg-gray-100">
+                    <div class="mx-6 grid grid-cols-4 md:grid-cols-5 lg:grid-cols-10 gap-5 mt-5">
                             <div class="col-span-1">
                                 PPR2790
                             </div>
                             <div class="col-span-3">
                                 CHARMING BRAND NEW VILLA
                             </div>
-                            <div class="col-span-1">
+                            <div class="col-span-1 hidden md:inline">
                                 Canggu
                             </div>
-                            <div class="col-span-1">
+                            <div class="col-span-1 hidden lg:inline">
                                 For Rent
                             </div>
-                            <div class="col-span-2">
+                            <div class="col-span-2 hidden lg:inline">
                                 Yearly Rental
                             </div>
-                            <div class="col-span-2">
+                            <div class="col-span-2 hidden lg:inline">
                                 <strong>500,000,000</strong> IDR Yearly
                             </div>
                         </div>
@@ -174,187 +174,136 @@
                     <hr class="mt-3">
                 </div>
                 <!-- Hasil 6 -->
-                <div class="pt-3 bg-white hover:bg-gray-200 px-6">
-                    <a href="" class="hover:bg-gray-100">
-                        <div class="grid grid-cols-10 gap-5 ">
+                <div class="pt-3 bg-white hover:bg-gray-200 lg:px-6">
+                    <a href="./property-detail.php" class="hover:bg-gray-100">
+                    <div class="mx-6 grid grid-cols-4 md:grid-cols-5 lg:grid-cols-10 gap-5 mt-5">
                             <div class="col-span-1">
                                 PPR2790
                             </div>
                             <div class="col-span-3">
                                 CHARMING BRAND NEW VILLA
                             </div>
-                            <div class="col-span-1">
+                            <div class="col-span-1 hidden md:inline">
                                 Canggu
                             </div>
-                            <div class="col-span-1">
+                            <div class="col-span-1 hidden lg:inline">
                                 For Rent
                             </div>
-                            <div class="col-span-2">
+                            <div class="col-span-2 hidden lg:inline">
                                 Yearly Rental
                             </div>
-                            <div class="col-span-2">
+                            <div class="col-span-2 hidden lg:inline">
                                 <strong>500,000,000</strong> IDR Yearly
                             </div>
                         </div>
                     </a>
                     <hr class="mt-3">
                 </div>
-                <!-- Hasil 1 -->
-                <div class="pt-3 bg-white hover:bg-gray-200 px-6">
-                    <a href="" class="hover:bg-gray-100">
-                        <div class="grid grid-cols-10 gap-5 ">
+                <!-- Hasil 7 -->
+                <div class="pt-3 bg-white hover:bg-gray-200 lg:px-6">
+                    <a href="./property-detail.php" class="hover:bg-gray-100">
+                    <div class="mx-6 grid grid-cols-4 md:grid-cols-5 lg:grid-cols-10 gap-5 mt-5">
                             <div class="col-span-1">
                                 PPR2790
                             </div>
                             <div class="col-span-3">
                                 CHARMING BRAND NEW VILLA
                             </div>
-                            <div class="col-span-1">
+                            <div class="col-span-1 hidden md:inline">
                                 Canggu
                             </div>
-                            <div class="col-span-1">
+                            <div class="col-span-1 hidden lg:inline">
                                 For Rent
                             </div>
-                            <div class="col-span-2">
+                            <div class="col-span-2 hidden lg:inline">
                                 Yearly Rental
                             </div>
-                            <div class="col-span-2">
+                            <div class="col-span-2 hidden lg:inline">
                                 <strong>500,000,000</strong> IDR Yearly
                             </div>
                         </div>
                     </a>
                     <hr class="mt-3">
                 </div>
-                <!-- Hasil 2 -->
-                <div class="pt-3 bg-white hover:bg-gray-200 px-6">
-                    <a href="" class="hover:bg-gray-100">
-                        <div class="grid grid-cols-10 gap-5 ">
+                <!-- Hasil 8 -->
+                <div class="pt-3 bg-white hover:bg-gray-200 lg:px-6">
+                    <a href="./property-detail.php" class="hover:bg-gray-100">
+                    <div class="mx-6 grid grid-cols-4 md:grid-cols-5 lg:grid-cols-10 gap-5 mt-5">
                             <div class="col-span-1">
                                 PPR2790
                             </div>
                             <div class="col-span-3">
                                 CHARMING BRAND NEW VILLA
                             </div>
-                            <div class="col-span-1">
+                            <div class="col-span-1 hidden md:inline">
                                 Canggu
                             </div>
-                            <div class="col-span-1">
+                            <div class="col-span-1 hidden lg:inline">
                                 For Rent
                             </div>
-                            <div class="col-span-2">
+                            <div class="col-span-2 hidden lg:inline">
                                 Yearly Rental
                             </div>
-                            <div class="col-span-2">
+                            <div class="col-span-2 hidden lg:inline">
                                 <strong>500,000,000</strong> IDR Yearly
                             </div>
                         </div>
                     </a>
                     <hr class="mt-3">
                 </div>
-                <!-- Hasil 3 -->
-                <div class="pt-3 bg-white hover:bg-gray-200 px-6">
-                    <a href="" class="hover:bg-gray-100">
-                        <div class="grid grid-cols-10 gap-5 ">
+                <!-- Hasil 9 -->
+                <div class="pt-3 bg-white hover:bg-gray-200 lg:px-6">
+                    <a href="./property-detail.php" class="hover:bg-gray-100">
+                    <div class="mx-6 grid grid-cols-4 md:grid-cols-5 lg:grid-cols-10 gap-5 mt-5">
                             <div class="col-span-1">
                                 PPR2790
                             </div>
                             <div class="col-span-3">
                                 CHARMING BRAND NEW VILLA
                             </div>
-                            <div class="col-span-1">
+                            <div class="col-span-1 hidden md:inline">
                                 Canggu
                             </div>
-                            <div class="col-span-1">
+                            <div class="col-span-1 hidden lg:inline">
                                 For Rent
                             </div>
-                            <div class="col-span-2">
+                            <div class="col-span-2 hidden lg:inline">
                                 Yearly Rental
                             </div>
-                            <div class="col-span-2">
+                            <div class="col-span-2 hidden lg:inline">
                                 <strong>500,000,000</strong> IDR Yearly
                             </div>
                         </div>
                     </a>
                     <hr class="mt-3">
                 </div>
-                <!-- Hasil 4 -->
-                <div class="pt-3 bg-white hover:bg-gray-200 px-6">
-                    <a href="" class="hover:bg-gray-100">
-                        <div class="grid grid-cols-10 gap-5 ">
+                <!-- Hasil 10 -->
+                <div class="pt-3 bg-white hover:bg-gray-200 lg:px-6">
+                    <a href="./property-detail.php" class="hover:bg-gray-100">
+                    <div class="mx-6 grid grid-cols-4 md:grid-cols-5 lg:grid-cols-10 gap-5 mt-5">
                             <div class="col-span-1">
                                 PPR2790
                             </div>
                             <div class="col-span-3">
                                 CHARMING BRAND NEW VILLA
                             </div>
-                            <div class="col-span-1">
+                            <div class="col-span-1 hidden md:inline">
                                 Canggu
                             </div>
-                            <div class="col-span-1">
+                            <div class="col-span-1 hidden lg:inline">
                                 For Rent
                             </div>
-                            <div class="col-span-2">
+                            <div class="col-span-2 hidden lg:inline">
                                 Yearly Rental
                             </div>
-                            <div class="col-span-2">
+                            <div class="col-span-2 hidden lg:inline">
                                 <strong>500,000,000</strong> IDR Yearly
                             </div>
                         </div>
                     </a>
                     <hr class="mt-3">
                 </div>
-                <!-- Hasil 5 -->
-                <div class="pt-3 bg-white hover:bg-gray-200 px-6">
-                    <a href="" class="hover:bg-gray-100">
-                        <div class="grid grid-cols-10 gap-5 ">
-                            <div class="col-span-1">
-                                PPR2790
-                            </div>
-                            <div class="col-span-3">
-                                CHARMING BRAND NEW VILLA
-                            </div>
-                            <div class="col-span-1">
-                                Canggu
-                            </div>
-                            <div class="col-span-1">
-                                For Rent
-                            </div>
-                            <div class="col-span-2">
-                                Yearly Rental
-                            </div>
-                            <div class="col-span-2">
-                                <strong>500,000,000</strong> IDR Yearly
-                            </div>
-                        </div>
-                    </a>
-                    <hr class="mt-3">
-                </div>
-                <!-- Hasil 6 -->
-                <div class="pt-3 bg-white hover:bg-gray-200 px-6">
-                    <a href="" class="hover:bg-gray-100">
-                        <div class="grid grid-cols-10 gap-5 ">
-                            <div class="col-span-1">
-                                PPR2790
-                            </div>
-                            <div class="col-span-3">
-                                CHARMING BRAND NEW VILLA
-                            </div>
-                            <div class="col-span-1">
-                                Canggu
-                            </div>
-                            <div class="col-span-1">
-                                For Rent
-                            </div>
-                            <div class="col-span-2">
-                                Yearly Rental
-                            </div>
-                            <div class="col-span-2">
-                                <strong>500,000,000</strong> IDR Yearly
-                            </div>
-                        </div>
-                    </a>
-                    <hr class="mt-3">
-                </div>
+                
             </div>
             <!-- Pagination -->
             <div class="bg-white px-4 py-3 flex items-center justify-between border-t border-gray-200 sm:px-6">
