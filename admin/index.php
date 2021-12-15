@@ -41,18 +41,15 @@
                         <div>
                             <div class="flex">
                                 <div class="py-4 px-5 bg-green-100 text-green-800 rounded-lg">
-                                    <i class="far fa-building fa-lg"></i>
-                                </div>
+                                <i class="fad fa-house-return"></i>
+                                                            </div>
                                 <div class="ml-2">
                                     <p class="text-gray-500">Total Lead</p>
                                     <p class="text-xl font-bold">1453
                                 </div>
                             </div>
-
                         </div>
-
                     </div>
-
                 </div>
             </div>
         </main>
