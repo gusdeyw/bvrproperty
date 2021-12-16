@@ -13,14 +13,12 @@
                 <p class="text-xl font-semibold text-gray-700 items-bottom my-auto">
                     Property List
                 </p>
-
                 <div class="flex ml-auto bg-white rounded-lg hover:bg-bvr20 hover:text-white text-bvr20">
                     <a href="property-add" class="px-4 py-2 flex">
                         <i class="fas fa-plus-circle mt-1 mr-1"></i>
                         <p>Add New Property</p>
                     </a>
                 </div>
-
             </div>
             <div class="mx-6 grid grid-cols-4 md:grid-cols-5 lg:grid-cols-10 gap-5 mt-5">
                 <div class="col-span-1">
