@@ -1,5 +1,5 @@
 <div class="bg-gray-800 text-gray-300">
-    <div class="w-10/12 lg:w-9/12 mx-auto">
+    <div class="w-10/12 lg:w-10/12 mx-auto">
         <div class="py-4 pt-10 w-full flex">
             <img class="w-36 md:w-44 lg:w-52 h-full" src="/public/images/footer-logo.png">
             <div class="w-full flex justify-end">

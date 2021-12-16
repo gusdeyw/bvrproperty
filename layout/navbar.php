@@ -1,5 +1,5 @@
 <div class="fixed w-full bg-black z-50 shadow-md">
-  <div x-data="{ open: false }" class="flex flex-col max-w-screen-xl px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-14">
+  <div x-data="{ open: false }" class="flex flex-col mx-auto w-10/12 md:items-center md:justify-between md:flex-row">
     <div class="p-3 flex flex-row items-center justify-between">
       <a href="index.php"><img class="h-10" src="/public/images/logo.png" alt="BVR Property"></a>
       <button class="md:hidden rounded-lg focus:outline-none focus:shadow-outline" @click="open = !open">

@@ -38,7 +38,7 @@
 
 <body class="bg-gray-200">
     <?php include 'layout/navbar.php' ?>
-    <div class="mx-auto w-9/12 h-96">
+    <div class="mx-auto w-10/12 h-96">
         <svg height="3" class="w-full my-4">
             <line x1="0" y1="0" x2="30000" y2="0" style="stroke:black;stroke-width:3" />
         </svg>
@@ -71,7 +71,7 @@
         </div>
     </div>
     <!-- Property List -->
-    <div class="mx-auto w-9/12 mt-7">
+    <div class="mx-auto w-10/12 mt-7">
         <div class="flex my-3">
             <p class="flex-none pr-6 font-bold">PROPERTY LIST</p>
             <!-- Line -->
