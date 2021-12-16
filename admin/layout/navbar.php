@@ -14,7 +14,7 @@
             <i class="fas fa-place-of-worship mr-3"></i>
             Property List
         </a>
-        <a href="/admin/blog.php" class="hover:bg-bvr21 hover:text-bvr30 flex items-center py-4 pl-6 nav-item">
+        <a href="/admin/blog-list.php" class="hover:bg-bvr21 hover:text-bvr30 flex items-center py-4 pl-6 nav-item">
             <i class="fas fa-newspaper mr-3"></i>
             Blog
         </a>

@@ -15,14 +15,14 @@
                         Blog Detail
                     </p>
                 </div>
-                <div class="bg-gray-200 rounded-t-lg mt-5 px-10 py-7">
+                <div class="bg-white rounded-t-lg mt-5 px-10 py-7">
                     <div class="grid grid-cols-1 lg:grid-cols-2 gap-x-12 gap-y-5">
                         <div class="">
-                            <label class="font-semibold">Category</label>
-                            <input type="text" class="w-full mt-1 py-1 px-4 focus:outline-none focus:ring-2 focus:ring-bvr20 focus:border-transparent rounded-md">
+                            <label class="font-semibold">Title</label>
+                            <input type="text" class="w-full mt-1 py-1 px-4 focus:outline-none focus:ring-2 border-2 border-gray-300 focus:ring-bvr20 focus:border-transparent rounded-md">
                         </div>
                         <div class="">
-                            <label class="font-semibold">Title</label>
+                            <label class="font-semibold">Category</label>
                             <div class="grid grid-cols-2 lg:grid-cols-3 gap-x-6  gap-y-2 mt-2">
                                 <div class="">
                                     <input type="checkbox" id="balivillas" name="balivillas" value="balivillas" class="-mt-1 mr-1 form-checkbox border-2 border-bvr10 text-bvr20">

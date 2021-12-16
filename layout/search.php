@@ -52,7 +52,7 @@
         </select>
         <input type='text' placeholder="Min. Area" class="border-2 border-gray-300 bg-white h-10 px-4 text-sm  w-2/12">
         <input type='text' placeholder="Max. Area" class="border-2 border-gray-300 bg-white h-10 px-4 text-sm  w-2/12">
-        <button class="ml-3 border-2  bg-bvr2 hover:bg-bvr3 text-white h-10 text-center text-base w-1/12">
+        <button class="ml-3 border-2  bg-bvr20  hover:bg-bvr30 text-white h-10 text-center text-base w-1/12">
             Search
         </button>
     </div>
@@ -114,7 +114,7 @@
         <input type='text' placeholder="Max. Area" class="border-2 border-gray-300 bg-white h-10 px-4 text-sm  w-6/12">
         </select>
     </div>
-    <button class="border-2  mt-2 bg-bvr2 hover:bg-bvr3 text-white h-10 text-center text-base w-full">
+    <button class="border-2  mt-2 bg-bvr20 hover:bg-bvr30 text-white h-10 text-center text-base w-full">
         Search
     </button>
 </div>

@@ -39,11 +39,8 @@
 <body class="bg-gray-200">
     <?php include 'layout/navbar.php' ?>
     <div class="mx-auto w-10/12 h-96">
-        <svg height="3" class="w-full my-4">
-            <line x1="0" y1="0" x2="30000" y2="0" style="stroke:black;stroke-width:3" />
-        </svg>
         <!-- Swiper -->
-        <div class="swiper mySwiper">
+        <div class="mt-6 swiper mySwiper">
             <div class="swiper-wrapper">
                 <!-- Slider 1 -->
                 <div class="swiper-slide flex-col">
@@ -200,7 +197,7 @@
             </button>
         </div>
         <!-- Result -->
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 my-10">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 my-10">
             <!-- Hasil 1 -->
             <div class="bg-white filter drop-shadow-lg border-2 hover:border-bvr20 col-span-1">
                 <a href="page-detail.php" class="">

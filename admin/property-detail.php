@@ -51,38 +51,38 @@
                     </div>
                 </div>
                 <div class=" lg:flex w-full bg-gray-200">
-                    <div class="bg-white flex lg:flex-1 text-black">
+                    <div class="bg-white flex lg:flex-1 text-gray-500">
                         <!--  -->
-                        <a onclick="generalInfo()" id="generalInfo2" class="flex-1 cursor-pointer px-4 py-2 border-t-2 bg-white border-gray-700  hover:text-bvr20 hover:border-bvr30 rounded-t-lg">
+                        <a onclick="generalInfo()" id="generalInfo2" class="flex-1 cursor-pointer px-4 py-2 border-t-2 border-l-2 border-r-2 font-bold border-bvr30 text-bvr20 border-gray-500  hover:text-bvr20 hover:border-bvr30 rounded-t-lg text-center">
                             General Info
                         </a>
                         <!--  -->
-                        <a onclick="facilities()" id="facilities2" class="flex-1 cursor-pointer px-4 py-2 border-t-2 bg-white border-gray-700  hover:text-bvr20 hover:border-bvr30 rounded-t-lg">
+                        <a onclick="facilities()" id="facilities2" class="flex-1 cursor-pointer px-4 py-2 border-t-2 border-l-2 border-r-2 bg-white border-gray-500  hover:text-bvr20 hover:border-bvr30 rounded-t-lg text-center">
                             Facilities
                         </a>
                         <!--  -->
-                        <a onclick="pricing()" id="pricing2" class="flex-1 cursor-pointer px-4 py-2 border-t-2 bg-white border-gray-700  hover:text-bvr20 hover:border-bvr30 rounded-t-lg">
+                        <a onclick="pricing()" id="pricing2" class="flex-1 cursor-pointer px-4 py-2 border-t-2 border-l-2 border-r-2 bg-white border-gray-500  hover:text-bvr20 hover:border-bvr30 rounded-t-lg text-center">
                             Pricing
                         </a>
 
                     </div>
-                    <div class="bg-white flex lg:flex-1 text-black">
+                    <div class="bg-white flex lg:flex-1 text-gray-500">
                         <!--  -->
-                        <a onclick="ownercp()" id="ownercp2" class="flex-1 cursor-pointer px-4 py-2 border-t-2 bg-white border-gray-700  hover:text-bvr20 hover:border-bvr30 rounded-t-lg">
+                        <a onclick="ownercp()" id="ownercp2" class="flex-1 cursor-pointer px-3 py-2 border-t-2 border-l-2 border-r-2 bg-white border-gray-500  hover:text-bvr20 hover:border-bvr30 rounded-t-lg text-center">
                             Owner/Contact Person
                         </a>
                         <!--  -->
-                        <a onclick="imagesmenu()" id="imagesmenu2" class="flex-1 cursor-pointer px-4 py-2 border-t-2 bg-white border-gray-700  hover:text-bvr20 hover:border-bvr30 rounded-t-lg">
+                        <a onclick="imagesmenu()" id="imagesmenu2" class="flex-1 cursor-pointer px-4 py-2 border-t-2 border-l-2 border-r-2 bg-white border-gray-500  hover:text-bvr20 hover:border-bvr30 rounded-t-lg text-center">
                             Images
                         </a>
                     </div>
-                    <div class="bg-white flex text-black lg:flex-1">
+                    <div class="bg-white flex text-gray-500 lg:flex-1">
                         <!--  -->
-                        <a onclick="website()" id="website2" class="w-max flex-1 cursor-pointer px-4 py-2 border-t-2 bg-white border-gray-700  hover:text-bvr20 hover:border-bvr30 rounded-t-lg">
+                        <a onclick="website()" id="website2" class="w-max flex-1 cursor-pointer px-4 py-2 border-t-2 border-l-2 border-r-2 bg-white border-gray-500  hover:text-bvr20 hover:border-bvr30 rounded-t-lg text-center">
                             Website
                         </a>
                         <!--  -->
-                        <a onclick="legalDocument()" id="legalDocument2" class="w-max flex-1 cursor-pointer px-4 py-2 border-t-2 bg-white border-gray-700  hover:text-bvr20 hover:border-bvr30 rounded-t-lg">
+                        <a onclick="legalDocument()" id="legalDocument2" class="w-max flex-1 cursor-pointer px-4 py-2 border-t-2 border-l-2 border-r-2 bg-white border-gray-500  hover:text-bvr20 hover:border-bvr30 rounded-t-lg text-center">
                             Legal Document
                         </a>
                     </div>
@@ -591,20 +591,34 @@
             var g = document.getElementById("legalDocument");
             g.style.display = "none";
             // color
-            // var h = document.getElementById("generalInfo2");
-            // h.style.backgroundColor = "#EF3700";
-            // var i = document.getElementById("facilities2");
-            // i.style.backgroundColor = "#9CA3AF";
-            // var j = document.getElementById("pricing2");
-            // j.style.backgroundColor = "#9CA3AF";
-            // var k = document.getElementById("ownercp2");
-            // k.style.backgroundColor = "#9CA3AF";
-            // var l = document.getElementById("imagesmenu2");
-            // l.style.backgroundColor = "#9CA3AF";
-            // var m = document.getElementById("website2");
-            // m.style.backgroundColor = "#9CA3AF";
-            // var n = document.getElementById("legalDocument2");
-            // n.style.backgroundColor = "#9CA3AF";
+            var h = document.getElementById("generalInfo2");
+            h.style.borderColor = "#EF3700";
+            h.style.color = "#EF3700";
+            h.style.fontWeight = "700";
+            var i = document.getElementById("facilities2");
+            i.style.borderColor = "#6B7280";
+            i.style.color = "#6B7280";
+            i.style.fontWeight = "400";
+            var j = document.getElementById("pricing2");
+            j.style.borderColor = "#6B7280";
+            j.style.color = "#6B7280";
+            j.style.fontWeight = "400";
+            var k = document.getElementById("ownercp2");
+            k.style.borderColor = "#6B7280";
+            k.style.color = "#6B7280";
+            k.style.fontWeight = "400";
+            var l = document.getElementById("imagesmenu2");
+            l.style.borderColor = "#6B7280";
+            l.style.color = "#6B7280";
+            l.style.fontWeight = "400";
+            var m = document.getElementById("website2");
+            m.style.borderColor = "#6B7280";
+            m.style.color = "#6B7280";
+            m.style.fontWeight = "400";
+            var n = document.getElementById("legalDocument2");
+            n.style.borderColor = "#6B7280";
+            n.style.color = "#6B7280";
+            n.style.fontWeight = "400";
         }
 
         function facilities() {
@@ -623,20 +637,34 @@
             var g = document.getElementById("legalDocument");
             g.style.display = "none";
             // color
-            // var h = document.getElementById("facilities2");
-            // h.style.backgroundColor = "#EF3700";
-            // var i = document.getElementById("generalInfo2");
-            // i.style.backgroundColor = "#9CA3AF";
-            // var j = document.getElementById("pricing2");
-            // j.style.backgroundColor = "#9CA3AF";
-            // var k = document.getElementById("ownercp2");
-            // k.style.backgroundColor = "#9CA3AF";
-            // var l = document.getElementById("imagesmenu2");
-            // l.style.backgroundColor = "#9CA3AF";
-            // var m = document.getElementById("website2");
-            // m.style.backgroundColor = "#9CA3AF";
-            // var n = document.getElementById("legalDocument2");
-            // n.style.backgroundColor = "#9CA3AF";
+            var h = document.getElementById("facilities2");
+            h.style.borderColor = "#EF3700";
+            h.style.color = "#EF3700";
+            h.style.fontWeight = "700";
+            var i = document.getElementById("generalInfo2");
+            i.style.borderColor = "#6B7280";
+            i.style.color = "#6B7280";
+            i.style.fontWeight = "400";
+            var j = document.getElementById("pricing2");
+            j.style.borderColor = "#6B7280";
+            j.style.color = "#6B7280";
+            j.style.fontWeight = "400";
+            var k = document.getElementById("ownercp2");
+            k.style.borderColor = "#6B7280";
+            k.style.color = "#6B7280";
+            k.style.fontWeight = "400";
+            var l = document.getElementById("imagesmenu2");
+            l.style.borderColor = "#6B7280";
+            l.style.color = "#6B7280";
+            l.style.fontWeight = "400";
+            var m = document.getElementById("website2");
+            m.style.borderColor = "#6B7280";
+            m.style.color = "#6B7280";
+            m.style.fontWeight = "400";
+            var n = document.getElementById("legalDocument2");
+            n.style.borderColor = "#6B7280";
+            n.style.color = "#6B7280";
+            n.style.fontWeight = "400";
         }
 
         function pricing() {
@@ -655,20 +683,34 @@
             var g = document.getElementById("legalDocument");
             g.style.display = "none";
             // color
-            // var h = document.getElementById("pricing2");
-            // h.style.backgroundColor = "#EF3700";
-            // var i = document.getElementById("generalInfo2");
-            // i.style.backgroundColor = "#9CA3AF";
-            // var j = document.getElementById("facilities2");
-            // j.style.backgroundColor = "#9CA3AF";
-            // var k = document.getElementById("ownercp2");
-            // k.style.backgroundColor = "#9CA3AF";
-            // var l = document.getElementById("imagesmenu2");
-            // l.style.backgroundColor = "#9CA3AF";
-            // var m = document.getElementById("website2");
-            // m.style.backgroundColor = "#9CA3AF";
-            // var n = document.getElementById("legalDocument2");
-            // n.style.backgroundColor = "#9CA3AF";
+            var h = document.getElementById("pricing2");
+            h.style.borderColor = "#EF3700";
+            h.style.color = "#EF3700";
+            h.style.fontWeight = "700";
+            var i = document.getElementById("generalInfo2");
+            i.style.borderColor = "#6B7280";
+            i.style.color = "#6B7280";
+            i.style.fontWeight = "400";
+            var j = document.getElementById("facilities2");
+            j.style.borderColor = "#6B7280";
+            j.style.color = "#6B7280";
+            j.style.fontWeight = "400";
+            var k = document.getElementById("ownercp2");
+            k.style.borderColor = "#6B7280";
+            k.style.color = "#6B7280";
+            k.style.fontWeight = "400";
+            var l = document.getElementById("imagesmenu2");
+            l.style.borderColor = "#6B7280";
+            l.style.color = "#6B7280";
+            l.style.fontWeight = "400";
+            var m = document.getElementById("website2");
+            m.style.borderColor = "#6B7280";
+            m.style.color = "#6B7280";
+            m.style.fontWeight = "400";
+            var n = document.getElementById("legalDocument2");
+            n.style.borderColor = "#6B7280";
+            n.style.color = "#6B7280";
+            n.style.fontWeight = "400";
         }
 
         function ownercp() {
@@ -687,20 +729,34 @@
             var g = document.getElementById("legalDocument");
             g.style.display = "none";
             // color
-            // var h = document.getElementById("ownercp2");
-            // h.style.backgroundColor = "#EF3700";
-            // var i = document.getElementById("generalInfo2");
-            // i.style.backgroundColor = "#9CA3AF";
-            // var j = document.getElementById("facilities2");
-            // j.style.backgroundColor = "#9CA3AF";
-            // var k = document.getElementById("pricing2");
-            // k.style.backgroundColor = "#9CA3AF";
-            // var l = document.getElementById("imagesmenu2");
-            // l.style.backgroundColor = "#9CA3AF";
-            // var m = document.getElementById("website2");
-            // m.style.backgroundColor = "#9CA3AF";
-            // var n = document.getElementById("legalDocument2");
-            // n.style.backgroundColor = "#9CA3AF";
+            var h = document.getElementById("ownercp2");
+            h.style.borderColor = "#EF3700";
+            h.style.color = "#EF3700";
+            h.style.fontWeight = "700";
+            var i = document.getElementById("generalInfo2");
+            i.style.borderColor = "#6B7280";
+            i.style.color = "#6B7280";
+            i.style.fontWeight = "400";
+            var j = document.getElementById("facilities2");
+            j.style.borderColor = "#6B7280";
+            j.style.color = "#6B7280";
+            j.style.fontWeight = "400";
+            var k = document.getElementById("pricing2");
+            k.style.borderColor = "#6B7280";
+            k.style.color = "#6B7280";
+            k.style.fontWeight = "400";
+            var l = document.getElementById("imagesmenu2");
+            l.style.borderColor = "#6B7280";
+            l.style.color = "#6B7280";
+            l.style.fontWeight = "400";
+            var m = document.getElementById("website2");
+            m.style.borderColor = "#6B7280";
+            m.style.color = "#6B7280";
+            m.style.fontWeight = "400";
+            var n = document.getElementById("legalDocument2");
+            n.style.borderColor = "#6B7280";
+            n.style.color = "#6B7280";
+            n.style.fontWeight = "400";
         }
 
         function imagesmenu() {
@@ -719,20 +775,34 @@
             var g = document.getElementById("legalDocument");
             g.style.display = "none";
             // color
-            // var h = document.getElementById("imagesmenu2");
-            // h.style.backgroundColor = "#EF3700";
-            // var i = document.getElementById("generalInfo2");
-            // i.style.backgroundColor = "#9CA3AF";
-            // var j = document.getElementById("facilities2");
-            // j.style.backgroundColor = "#9CA3AF";
-            // var k = document.getElementById("pricing2");
-            // k.style.backgroundColor = "#9CA3AF";
-            // var l = document.getElementById("ownercp2");
-            // l.style.backgroundColor = "#9CA3AF";
-            // var m = document.getElementById("website2");
-            // m.style.backgroundColor = "#9CA3AF";
-            // var n = document.getElementById("legalDocument2");
-            // n.style.backgroundColor = "#9CA3AF";
+            var h = document.getElementById("imagesmenu2");
+            h.style.borderColor = "#EF3700";
+            h.style.color = "#EF3700";
+            h.style.fontWeight = "700";
+            var i = document.getElementById("generalInfo2");
+            i.style.borderColor = "#6B7280";
+            i.style.color = "#6B7280";
+            i.style.fontWeight = "400";
+            var j = document.getElementById("facilities2");
+            j.style.borderColor = "#6B7280";
+            j.style.color = "#6B7280";
+            j.style.fontWeight = "400";
+            var k = document.getElementById("pricing2");
+            k.style.borderColor = "#6B7280";
+            k.style.color = "#6B7280";
+            k.style.fontWeight = "400";
+            var l = document.getElementById("ownercp2");
+            l.style.borderColor = "#6B7280";
+            l.style.color = "#6B7280";
+            l.style.fontWeight = "400";
+            var m = document.getElementById("website2");
+            m.style.borderColor = "#6B7280";
+            m.style.color = "#6B7280";
+            m.style.fontWeight = "400";
+            var n = document.getElementById("legalDocument2");
+            n.style.borderColor = "#6B7280";
+            n.style.color = "#6B7280";
+            n.style.fontWeight = "400";
         }
 
         function website() {
@@ -751,20 +821,34 @@
             var g = document.getElementById("legalDocument");
             g.style.display = "none";
             // color
-            // var h = document.getElementById("website2");
-            // h.style.backgroundColor = "#EF3700";
-            // var i = document.getElementById("generalInfo2");
-            // i.style.backgroundColor = "#9CA3AF";
-            // var j = document.getElementById("facilities2");
-            // j.style.backgroundColor = "#9CA3AF";
-            // var k = document.getElementById("pricing2");
-            // k.style.backgroundColor = "#9CA3AF";
-            // var l = document.getElementById("ownercp2");
-            // l.style.backgroundColor = "#9CA3AF";
-            // var m = document.getElementById("imagesmenu2");
-            // m.style.backgroundColor = "#9CA3AF";
-            // var n = document.getElementById("legalDocument2");
-            // n.style.backgroundColor = "#9CA3AF";
+            var h = document.getElementById("website2");
+            h.style.borderColor = "#EF3700";
+            h.style.color = "#EF3700";
+            h.style.fontWeight = "700";
+            var i = document.getElementById("generalInfo2");
+            i.style.borderColor = "#6B7280";
+            i.style.color = "#6B7280";
+            i.style.fontWeight = "400";
+            var j = document.getElementById("facilities2");
+            j.style.borderColor = "#6B7280";
+            j.style.color = "#6B7280";
+            j.style.fontWeight = "400";
+            var k = document.getElementById("pricing2");
+            k.style.borderColor = "#6B7280";
+            k.style.color = "#6B7280";
+            k.style.fontWeight = "400";
+            var l = document.getElementById("ownercp2");
+            l.style.borderColor = "#6B7280";
+            l.style.color = "#6B7280";
+            l.style.fontWeight = "400";
+            var m = document.getElementById("imagesmenu2");
+            m.style.borderColor = "#6B7280";
+            m.style.color = "#6B7280";
+            m.style.fontWeight = "400";
+            var n = document.getElementById("legalDocument2");
+            n.style.borderColor = "#6B7280";
+            n.style.color = "#6B7280";
+            n.style.fontWeight = "400";
         }
 
         function legalDocument() {
@@ -783,20 +867,34 @@
             var g = document.getElementById("website");
             g.style.display = "none";
             // color
-            // var h = document.getElementById("legalDocument2");
-            // h.style.backgroundColor = "#EF3700";
-            // var i = document.getElementById("generalInfo2");
-            // i.style.backgroundColor = "#9CA3AF";
-            // var j = document.getElementById("facilities2");
-            // j.style.backgroundColor = "#9CA3AF";
-            // var k = document.getElementById("pricing2");
-            // k.style.backgroundColor = "#9CA3AF";
-            // var l = document.getElementById("ownercp2");
-            // l.style.backgroundColor = "#9CA3AF";
-            // var m = document.getElementById("imagesmenu2");
-            // m.style.backgroundColor = "#9CA3AF";
-            // var n = document.getElementById("website2");
-            // n.style.backgroundColor = "#9CA3AF";
+            var h = document.getElementById("legalDocument2");
+            h.style.borderColor = "#EF3700";
+            h.style.color = "#EF3700";
+            h.style.fontWeight = "700";
+            var i = document.getElementById("generalInfo2");
+            i.style.borderColor = "#6B7280";
+            i.style.color = "#6B7280";
+            i.style.fontWeight = "400";
+            var j = document.getElementById("facilities2");
+            j.style.borderColor = "#6B7280";
+            j.style.color = "#6B7280";
+            j.style.fontWeight = "400";
+            var k = document.getElementById("pricing2");
+            k.style.borderColor = "#6B7280";
+            k.style.color = "#6B7280";
+            k.style.fontWeight = "400";
+            var l = document.getElementById("ownercp2");
+            l.style.borderColor = "#6B7280";
+            l.style.color = "#6B7280";
+            l.style.fontWeight = "400";
+            var m = document.getElementById("imagesmenu2");
+            m.style.borderColor = "#6B7280";
+            m.style.color = "#6B7280";
+            m.style.fontWeight = "400";
+            var n = document.getElementById("website2");
+            n.style.borderColor = "#6B7280";
+            n.style.color = "#6B7280";
+            n.style.fontWeight = "400";
         }
     </script>
     <!-- Select All in Facilities-->
