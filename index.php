@@ -200,7 +200,7 @@
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 my-10">
             <!-- Hasil 1 -->
             <div class="bg-white filter drop-shadow-lg border-2 hover:border-bvr20 col-span-1">
-                <a href="page-detail.php" class="">
+                <a href="page-detail" class="">
                     <div class="p-3">
                         <p class="font-semibold">CHARMING BRAND NEW VILLA</p>
                         <p class="text-red-600">BLI1234</p>
@@ -235,7 +235,7 @@
             </div>
             <!-- Hasil 1 -->
             <div class="bg-white filter drop-shadow-lg border-2 hover:border-bvr20 col-span-1">
-                <a href="page-detail.php" class="">
+                <a href="page-detail" class="">
                     <div class="p-3">
                         <p class="font-semibold">CHARMING BRAND NEW VILLA</p>
                         <p class="text-red-600">BLI1234</p>
@@ -270,7 +270,7 @@
             </div>
             <!-- Hasil 1 -->
             <div class="bg-white filter drop-shadow-lg border-2 hover:border-bvr20 col-span-1">
-                <a href="page-detail.php" class="">
+                <a href="page-detail" class="">
                     <div class="p-3">
                         <p class="font-semibold">CHARMING BRAND NEW VILLA</p>
                         <p class="text-red-600">BLI1234</p>
@@ -305,7 +305,7 @@
             </div>
             <!-- Hasil 1 -->
             <div class="bg-white filter drop-shadow-lg border-2 hover:border-bvr20 col-span-1">
-                <a href="page-detail.php" class="">
+                <a href="page-detail" class="">
                     <div class="p-3">
                         <p class="font-semibold">CHARMING BRAND NEW VILLA</p>
                         <p class="text-red-600">BLI1234</p>

@@ -1,2 +1,14 @@
 RewriteEngine On
+
 RewriteRule ^home index.php
+RewriteRule ^page-detail page-detail.php
+
+RewriteRule ^admin/home admin/index.php
+RewriteRule ^admin/property-list admin/property-list.php
+RewriteRule ^admin/property-add admin/property-add.php
+RewriteRule ^admin/property-detail admin/property-detail.php
+
+RewriteRule ^admin/blog-list admin/blog-list.php
+RewriteRule ^admin/blog-add admin/blog-add.php
+RewriteRule ^admin/blog-detail admin/blog-detail.php
+

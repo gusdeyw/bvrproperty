@@ -15,7 +15,7 @@
                 </p>
 
                 <div class="flex ml-auto bg-white rounded-lg hover:bg-bvr20 hover:text-white text-bvr20">
-                    <a href="property-add.php" class="px-4 py-2 flex">
+                    <a href="property-add" class="px-4 py-2 flex">
                         <i class="fas fa-plus-circle mt-1 mr-1"></i>
                         <p>Add New Property</p>
                     </a>
@@ -45,7 +45,7 @@
             <div class="bg-white mt-3">
                 <!-- Hasil 1 -->
                 <div class="pt-3 bg-white hover:bg-gray-200 lg:px-6">
-                    <a href="./property-detail.php" class="hover:bg-gray-100">
+                    <a href="./property-detail" class="hover:bg-gray-100">
                     <div class="mx-6 grid grid-cols-4 md:grid-cols-5 lg:grid-cols-10 gap-5 mt-5">
                             <div class="col-span-1">
                                 PPR2790
@@ -71,7 +71,7 @@
                 </div>
                 <!-- Hasil 2 -->
                 <div class="pt-3 bg-white hover:bg-gray-200 lg:px-6">
-                    <a href="./property-detail.php" class="hover:bg-gray-100">
+                    <a href="./property-detail" class="hover:bg-gray-100">
                     <div class="mx-6 grid grid-cols-4 md:grid-cols-5 lg:grid-cols-10 gap-5 mt-5">
                             <div class="col-span-1">
                                 PPR2790
@@ -97,7 +97,7 @@
                 </div>
                 <!-- Hasil 3 -->
                 <div class="pt-3 bg-white hover:bg-gray-200 lg:px-6">
-                    <a href="./property-detail.php" class="hover:bg-gray-100">
+                    <a href="./property-detail" class="hover:bg-gray-100">
                     <div class="mx-6 grid grid-cols-4 md:grid-cols-5 lg:grid-cols-10 gap-5 mt-5">
                             <div class="col-span-1">
                                 PPR2790
@@ -123,7 +123,7 @@
                 </div>
                 <!-- Hasil 4 -->
                 <div class="pt-3 bg-white hover:bg-gray-200 lg:px-6">
-                    <a href="./property-detail.php" class="hover:bg-gray-100">
+                    <a href="./property-detail" class="hover:bg-gray-100">
                     <div class="mx-6 grid grid-cols-4 md:grid-cols-5 lg:grid-cols-10 gap-5 mt-5">
                             <div class="col-span-1">
                                 PPR2790
@@ -149,7 +149,7 @@
                 </div>
                 <!-- Hasil 5 -->
                 <div class="pt-3 bg-white hover:bg-gray-200 lg:px-6">
-                    <a href="./property-detail.php" class="hover:bg-gray-100">
+                    <a href="./property-detail" class="hover:bg-gray-100">
                     <div class="mx-6 grid grid-cols-4 md:grid-cols-5 lg:grid-cols-10 gap-5 mt-5">
                             <div class="col-span-1">
                                 PPR2790
@@ -175,7 +175,7 @@
                 </div>
                 <!-- Hasil 6 -->
                 <div class="pt-3 bg-white hover:bg-gray-200 lg:px-6">
-                    <a href="./property-detail.php" class="hover:bg-gray-100">
+                    <a href="./property-detail" class="hover:bg-gray-100">
                     <div class="mx-6 grid grid-cols-4 md:grid-cols-5 lg:grid-cols-10 gap-5 mt-5">
                             <div class="col-span-1">
                                 PPR2790
@@ -201,7 +201,7 @@
                 </div>
                 <!-- Hasil 7 -->
                 <div class="pt-3 bg-white hover:bg-gray-200 lg:px-6">
-                    <a href="./property-detail.php" class="hover:bg-gray-100">
+                    <a href="./property-detail" class="hover:bg-gray-100">
                     <div class="mx-6 grid grid-cols-4 md:grid-cols-5 lg:grid-cols-10 gap-5 mt-5">
                             <div class="col-span-1">
                                 PPR2790
@@ -227,7 +227,7 @@
                 </div>
                 <!-- Hasil 8 -->
                 <div class="pt-3 bg-white hover:bg-gray-200 lg:px-6">
-                    <a href="./property-detail.php" class="hover:bg-gray-100">
+                    <a href="./property-detail" class="hover:bg-gray-100">
                     <div class="mx-6 grid grid-cols-4 md:grid-cols-5 lg:grid-cols-10 gap-5 mt-5">
                             <div class="col-span-1">
                                 PPR2790
@@ -253,7 +253,7 @@
                 </div>
                 <!-- Hasil 9 -->
                 <div class="pt-3 bg-white hover:bg-gray-200 lg:px-6">
-                    <a href="./property-detail.php" class="hover:bg-gray-100">
+                    <a href="./property-detail" class="hover:bg-gray-100">
                     <div class="mx-6 grid grid-cols-4 md:grid-cols-5 lg:grid-cols-10 gap-5 mt-5">
                             <div class="col-span-1">
                                 PPR2790
@@ -279,7 +279,7 @@
                 </div>
                 <!-- Hasil 10 -->
                 <div class="pt-3 bg-white hover:bg-gray-200 lg:px-6">
-                    <a href="./property-detail.php" class="hover:bg-gray-100">
+                    <a href="./property-detail" class="hover:bg-gray-100">
                     <div class="mx-6 grid grid-cols-4 md:grid-cols-5 lg:grid-cols-10 gap-5 mt-5">
                             <div class="col-span-1">
                                 PPR2790
