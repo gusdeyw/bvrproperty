@@ -63,7 +63,7 @@
                         </div>
                     </div>
                 </div>
-                <div class=" lg:flex w-full bg-gray-200">
+                <div class=" lg:flex w-full bg-gray-200 text-xs">
                     <div class="bg-white flex lg:flex-1 text-gray-500">
                         <!--  -->
                         <a onclick="generalInfo()" id="generalInfo2" class="flex-1 cursor-pointer px-4 py-2 border-t-2 border-l-2 border-r-2 font-bold border-bvr30 text-bvr20 border-gray-500  hover:text-bvr20 hover:border-bvr30 rounded-t-lg text-center">
