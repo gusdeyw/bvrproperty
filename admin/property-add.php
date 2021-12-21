@@ -1,5 +1,5 @@
 <?php include '../admin/layout/header.php'; ?>
-<title>Property Detail</title>
+<title>Property Add</title>
 </head>
 
 <body class="bg-gray-100 font-sans flex">
@@ -11,7 +11,7 @@
             <main class="w-full flex-grow px-4 py-8 sm:p-8">
                 <div class="flex w-full">
                     <p class="text-xl font-semibold text-gray-700 items-bottom my-auto">
-                        Property Detail
+                        Property Add
                     </p>
                 </div>
                 <div class="bg-white rounded-t-lg mt-5 px-10 py-7">
@@ -41,6 +41,19 @@
                                 <div class="flex-1">
                                     <input type="radio" id="rented" name="propertystatus" class="form-radio text-bvr20 bg-gray-200">
                                     <label for="rented">Rented</label>
+                                </div>
+                            </div>
+                            <label class="font-semibold mt-5">Publish Property</label>
+                            <div class="flex mt-1 py-1">
+                                <!-- Yes -->
+                                <div class="flex-1">
+                                    <input type="radio" id="yes" name="publishproperty" class="form-radio bg-gray-200 text-bvr20">
+                                    <label for="yes">Yes</label>
+                                </div>
+                                <!-- No -->
+                                <div class="flex-1">
+                                    <input type="radio" id="no" name="publishproperty" class="form-radio text-bvr20 bg-gray-200">
+                                    <label for="no">No</label>
                                 </div>
                             </div>
                         </div>

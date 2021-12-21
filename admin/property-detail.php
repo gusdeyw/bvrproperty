@@ -43,6 +43,19 @@
                                     <label for="rented">Rented</label>
                                 </div>
                             </div>
+                            <label class="font-semibold mt-5">Publish Property</label>
+                            <div class="flex mt-1 py-1">
+                                <!-- Yes -->
+                                <div class="flex-1">
+                                    <input type="radio" id="yes" name="publishproperty" class="form-radio bg-gray-200 text-bvr20">
+                                    <label for="yes">Yes</label>
+                                </div>
+                                <!-- No -->
+                                <div class="flex-1">
+                                    <input type="radio" id="no" name="publishproperty" class="form-radio text-bvr20 bg-gray-200">
+                                    <label for="no">No</label>
+                                </div>
+                            </div>
                         </div>
                         <div class="">
                             <label class="font-semibold">Property Note</label>
