@@ -13,6 +13,7 @@
                     <p class="text-xl font-semibold text-gray-700 items-bottom my-auto">
                         Property Detail
                     </p>
+                    
                 </div>
                 <div class="bg-white rounded-t-lg mt-5 px-10 py-7">
                     <div class="grid grid-cols-1 lg:grid-cols-2 gap-x-12 gap-y-5">

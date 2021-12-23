@@ -18,6 +18,10 @@
             <i class="fas fa-newspaper mr-3"></i>
             Blog
         </a>
+        <a href="/admin/leads.php" class="hover:bg-bvr21 hover:text-bvr30 flex items-center py-4 pl-6 nav-item">
+            <i class="fas fa-newspaper mr-3"></i>
+            Leads
+        </a>
         <div class="collapse collapse-arrow">
             <input type="checkbox">
             <div class="collapse-title hover:bg-bvr21 hover:text-bvr30 flex items-center py-4 pl-6 nav-item">
@@ -31,6 +35,10 @@
                 <a href="/admin/currency.php" class="hover:bg-bvr21 hover:text-bvr30 flex items-center py-2 pl-14 nav-item">
                     Currency
                 </a>
+                <a href="/admin/announcement.php" class="hover:bg-bvr21 hover:text-bvr30 flex items-center py-2 pl-14 nav-item">
+                    Announcement
+                </a>
+                .
             </div>
         </div>
     </nav>
