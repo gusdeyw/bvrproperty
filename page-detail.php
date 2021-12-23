@@ -76,7 +76,7 @@
 <title>Page Detail</title>
 </head>
 
-<body class="bg-gray-200">
+<body class="bg-gray-200 text-black">
     <?php include 'layout/navbar.php'; ?>
     <div class="mx-auto w-10/12 pt-10">
         <?php include 'layout/search.php' ?>

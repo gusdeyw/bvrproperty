@@ -36,7 +36,7 @@
 <title>Home</title>
 </head>
 
-<body class="bg-gray-200">
+<body class="bg-gray-200 text-black">
     <?php include 'layout/navbar.php' ?>
     <div class="mx-auto w-10/12 h-96">
         <!-- Swiper -->

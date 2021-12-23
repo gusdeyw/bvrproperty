@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/gusdeyw/bvrproperty#readme",
   "dependencies": {
+    "daisyui": "^1.17.1",
     "tailwindcss": "^2.2.19"
   },
   "devDependencies": {

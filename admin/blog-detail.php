@@ -3,7 +3,7 @@
 <title>Blog Detail</title>
 </head>
 
-<body class="bg-gray-100 font-sans flex">
+<body class="bg-gray-100 font-sans flex text-black">
     <!-- Navbar & Sidebar -->
     <?php include '../admin/layout/navbar.php'; ?>
 

@@ -18,6 +18,21 @@
             <i class="fas fa-newspaper mr-3"></i>
             Blog
         </a>
+        <div class="collapse collapse-arrow">
+            <input type="checkbox">
+            <div class="collapse-title hover:bg-bvr21 hover:text-bvr30 flex items-center py-4 pl-6 nav-item">
+                <i class="fas fa-user-cog mr-3"></i>
+                Adminisrator
+            </div>
+            <div class="collapse-content p-0">
+                <a href="/admin/user.php" class="hover:bg-bvr21 hover:text-bvr30 flex items-center py-2 pl-14 nav-item">
+                    User
+                </a>
+                <a href="/admin/currency.php" class="hover:bg-bvr21 hover:text-bvr30 flex items-center py-2 pl-14 nav-item">
+                    Currency
+                </a>
+            </div>
+        </div>
     </nav>
 </aside>
 
@@ -61,6 +76,10 @@
             <a href="/admin/blog-list" class="flex items-center py-2 pl-4">
                 <i class="fas fa-newspaper mr-3"></i>
                 Blog
+            </a>
+            <a href="/admin/blog-list" class="flex items-center py-2 pl-4">
+                <i class="fas fa-newspaper mr-3"></i>
+                Adminisrator
             </a>
             <a href="#" class="flex items-center py-2 pl-4 nav-item">
                 <i class="fas fa-sign-out-alt mr-3"></i>
