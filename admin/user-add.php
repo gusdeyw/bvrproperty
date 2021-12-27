@@ -17,7 +17,7 @@
                 <div class="bg-white rounded-lg mt-5 px-10 py-7">
                     <div class="grid grid-cols-1 lg:grid-cols-2 gap-x-12 gap-y-5">
                         <div class="">
-                            <label class="font-semibold">Nama</label>
+                            <label class="font-semibold">Login</label>
                             <input type="text" class="w-full mt-1 py-1 px-4 focus:outline-none focus:ring-2 focus:ring-bvr20 focus:border-transparent rounded-md border-2 border-gray-200">
                         </div>
                         <div class="">

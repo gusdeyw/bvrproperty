@@ -72,7 +72,7 @@
                             New
                         </div>
                         <div class="flex">
-                            <div class="w-max rounded-md px-3 py-1 bg-blue-700 text-white cursor-pointer" onclick="location.href='index.php';"><i class="fas fa-edit"></i></div>
+                            <div class="w-max rounded-md px-3 py-1 bg-blue-700 text-white cursor-pointer" onclick="location.href='leads-detail.php';"><i class="fas fa-edit"></i></div>
                             <div class="w-max ml-2 rounded-md px-3 py-1 bg-red-700 text-white"><i class="fas fa-trash-alt"></i></div>
 
                         </div>
@@ -138,7 +138,6 @@
                         <div class="flex">
                             <div class="w-max rounded-md px-3 py-1 bg-blue-700 text-white"><i class="fas fa-edit"></i></div>
                             <div class="w-max ml-2 rounded-md px-3 py-1 bg-red-700 text-white"><i class="fas fa-trash-alt"></i></div>
-
                         </div>
                     </div>
                     <hr class="mt-3">
