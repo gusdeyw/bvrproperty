@@ -22,6 +22,23 @@
                             <label class="font-semibold w-max mt-1">USD ($) =</label>
                             <input type="text" class="w-40 ml-3 mt-1 px-1 focus:outline-none focus:ring-2 focus:ring-bvr20 border-2 border-gray-200 focus:border-transparent rounded-md">
                         </div>
+                        <div class="flex mt-1">
+                            <label class="font-semibold w-max mt-1">Euro (€) =</label>
+                            <input type="text" class="w-40 ml-3 mt-1 px-1 focus:outline-none focus:ring-2 focus:ring-bvr20 border-2 border-gray-200 focus:border-transparent rounded-md">
+                        </div>
+                        <div class="flex mt-1">
+                            <label class="font-semibold w-max mt-1">Pound sterling (£) =</label>
+                            <input type="text" class="w-40 ml-3 mt-1 px-1 focus:outline-none focus:ring-2 focus:ring-bvr20 border-2 border-gray-200 focus:border-transparent rounded-md">
+                        </div>
+                        <div class="flex mt-1">
+                            <label class="font-semibold w-max mt-1">Yen (¥) =</label>
+                            <input type="text" class="w-40 ml-3 mt-1 px-1 focus:outline-none focus:ring-2 focus:ring-bvr20 border-2 border-gray-200 focus:border-transparent rounded-md">
+                        </div>
+                        <div class="flex mt-1">
+                            <label class="font-semibold w-max mt-1">Fran Swiss =</label>
+                            <input type="text" class="w-40 ml-3 mt-1 px-1 focus:outline-none focus:ring-2 focus:ring-bvr20 border-2 border-gray-200 focus:border-transparent rounded-md">
+                        </div>
+                    </div>
                     </div>
                 </div>
 

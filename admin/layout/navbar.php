@@ -1,12 +1,12 @@
 <!-- Sidebar -->
 <aside class="relative bg-white h-screen w-64 hidden sm:block shadow-xl z-30">
     <div class="p-6">
-        <a href="/admin/home" class="text-gray-300 text-3xl font-semibold uppercase hover:text-gray-300">
+        <a href="/admin/dashboard" class="text-gray-300 text-3xl font-semibold uppercase hover:text-gray-300">
             <img src="/public/images/logo-black.png">
         </a>
     </div>
     <nav class="text-gray-500 text-base font-semibold">
-        <a href="/admin/home" class="hover:bg-bvr21 hover:text-bvr30 flex items-center py-4 pl-6 nav-item">
+        <a href="/admin/dashboard" class="hover:bg-bvr21 hover:text-bvr30 flex items-center py-4 pl-6 nav-item">
             <i class="fas fa-tachometer-alt mr-3"></i>
             Dashboard
         </a>
@@ -14,13 +14,13 @@
             <i class="fas fa-place-of-worship mr-3"></i>
             Property List
         </a>
+        <a href="/admin/leads.php" class="hover:bg-bvr21 hover:text-bvr30 flex items-center py-4 pl-6 nav-item">
+            <i class="fas fa-school mr-3"></i>
+            Leads
+        </a>
         <a href="/admin/blog-list" class="hover:bg-bvr21 hover:text-bvr30 flex items-center py-4 pl-6 nav-item">
             <i class="fas fa-newspaper mr-3"></i>
             Blog
-        </a>
-        <a href="/admin/leads.php" class="hover:bg-bvr21 hover:text-bvr30 flex items-center py-4 pl-6 nav-item">
-        <i class="fas fa-school mr-3"></i>
-            Leads
         </a>
         <div class="collapse collapse-arrow">
             <input type="checkbox">
@@ -54,7 +54,7 @@
             </button>
             <button x-show="isOpen" @click="isOpen = false" class="h-full w-full fixed inset-0 cursor-default"></button>
             <div x-show="isOpen" class="absolute w-32 bg-white rounded-lg shadow-lg py-2 mt-16">
-                <a href="" class="block px-4 py-2 account-link hover:text-white">Sign Out</a>
+                <a href="/admin/logout.php" class="block px-4 py-2 account-link hover:text-bvr20">Sign Out</a>
             </div>
         </div>
     </header>
@@ -62,7 +62,7 @@
     <!-- Mobile Header & Nav -->
     <header x-data="{ isOpen: false }" class="w-full bg-sidebar py-5 px-6 sm:hidden bg-white">
         <div class="flex items-center justify-between">
-            <a href="admin/home" class="text-gray-500 text-3xl font-semibold uppercase hover:text-gray-700">
+            <a href="admin/dashboard" class="text-gray-500 text-3xl font-semibold uppercase hover:text-gray-700">
                 <img src="/public/images/logo-black.png" class="w-1/2">
             </a>
             <button @click="isOpen = !isOpen" class="bg-white text-bvr20 text-3xl focus:outline-none">
@@ -73,7 +73,7 @@
 
         <!-- Dropdown Nav -->
         <nav :class="isOpen ? 'flex': 'hidden'" class="flex flex-col pt-4 z-30 text-bvr20">
-            <a href="admin/home" class="flex items-center py-2 pl-4">
+            <a href="admin/dashboard" class="flex items-center py-2 pl-4">
                 <i class="fas fa-tachometer-alt mr-3"></i>
                 Dashboard
             </a>
@@ -81,14 +81,33 @@
                 <i class="fas fa-place-of-worship mr-3"></i>
                 Property List
             </a>
+            <a href="/admin/leads.php" class="flex items-center py-2 pl-4">
+                <i class="fas fa-school mr-3"></i>
+                Leads
+            </a>
             <a href="/admin/blog-list" class="flex items-center py-2 pl-4">
                 <i class="fas fa-newspaper mr-3"></i>
                 Blog
             </a>
-            <a href="/admin/blog-list" class="flex items-center py-2 pl-4">
-                <i class="fas fa-newspaper mr-3"></i>
-                Adminisrator
-            </a>
+            <div class="collapse collapse-arrow">
+                <input type="checkbox">
+                <div class="collapse-title hover:bg-bvr21 hover:text-bvr30 flex items-center nav-item">
+                    <i class="fas fa-user-cog mr-3"></i>
+                    Adminisrator
+                </div>
+                <div class="collapse-content p-0">
+                    <a href="/admin/user.php" class="hover:bg-bvr21 hover:text-bvr30 flex items-center py-2 pl-14 nav-item">
+                        User
+                    </a>
+                    <a href="/admin/currency.php" class="hover:bg-bvr21 hover:text-bvr30 flex items-center py-2 pl-14 nav-item">
+                        Currency
+                    </a>
+                    <a href="/admin/announcement.php" class="hover:bg-bvr21 hover:text-bvr30 flex items-center py-2 pl-14 nav-item">
+                        Announcement
+                    </a>
+                    .
+                </div>
+            </div>
             <a href="#" class="flex items-center py-2 pl-4 nav-item">
                 <i class="fas fa-sign-out-alt mr-3"></i>
                 Sign Out

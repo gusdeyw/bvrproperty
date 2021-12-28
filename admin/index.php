@@ -1,3 +1,11 @@
+<?php
+session_start();
+if (!isset($_SESSION["login"])) {
+    header("Location: login");
+    exit;
+}
+?>
+
 <?php include '../admin/layout/header.php'; ?>
 <title>Dashboard - Admin</title>
 </head>
