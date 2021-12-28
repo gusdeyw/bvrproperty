@@ -14,7 +14,7 @@
                     Lead List
                 </p>
                 <div class="flex ml-auto bg-white rounded-lg hover:bg-bvr20 hover:text-white text-bvr20">
-                    <a href="property-add" class="px-4 py-2 flex">
+                    <a href="leads-add.php" class="px-4 py-2 flex">
                         <i class="fas fa-plus-circle mt-1 mr-1"></i>
                         <p>Add New Lead</p>
                     </a>
@@ -255,7 +255,13 @@
     <!-- Font Awesome -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" integrity="sha256-KzZiKy0DWYsnwMF+X1DvQngQ2/FxF7MF3Ff72XcpuPs=" crossorigin="anonymous"></script>
     <script>
-
+            $("#delete-button").click(function() {
+                if (confirm("Are you sure you want to delete this?")) {
+                    $("#delete-button").attr("href", "query.php?ACTION=delete&ID='1'");
+                } else {
+                    return false;
+                }
+            });
     </script>
 </body>
 

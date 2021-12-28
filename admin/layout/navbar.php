@@ -19,7 +19,7 @@
             Blog
         </a>
         <a href="/admin/leads.php" class="hover:bg-bvr21 hover:text-bvr30 flex items-center py-4 pl-6 nav-item">
-            <i class="fas fa-newspaper mr-3"></i>
+        <i class="fas fa-school mr-3"></i>
             Leads
         </a>
         <div class="collapse collapse-arrow">
