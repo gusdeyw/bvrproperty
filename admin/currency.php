@@ -1,5 +1,5 @@
 <?php include '../admin/layout/header.php'; ?>
-<title>User Detail</title>
+<title>Currency</title>
 </head>
 
 <body class="bg-gray-100 font-sans flex text-black">

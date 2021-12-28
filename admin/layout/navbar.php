@@ -14,7 +14,7 @@
             <i class="fas fa-place-of-worship mr-3"></i>
             Property List
         </a>
-        <a href="/admin/leads.php" class="hover:bg-bvr21 hover:text-bvr30 flex items-center py-4 pl-6 nav-item">
+        <a href="/admin/leads-list" class="hover:bg-bvr21 hover:text-bvr30 flex items-center py-4 pl-6 nav-item">
             <i class="fas fa-school mr-3"></i>
             Leads
         </a>
@@ -29,13 +29,13 @@
                 Adminisrator
             </div>
             <div class="collapse-content p-0">
-                <a href="/admin/user.php" class="hover:bg-bvr21 hover:text-bvr30 flex items-center py-2 pl-14 nav-item">
+                <a href="/admin/user-list" class="hover:bg-bvr21 hover:text-bvr30 flex items-center py-2 pl-14 nav-item">
                     User
                 </a>
-                <a href="/admin/currency.php" class="hover:bg-bvr21 hover:text-bvr30 flex items-center py-2 pl-14 nav-item">
+                <a href="/admin/currency" class="hover:bg-bvr21 hover:text-bvr30 flex items-center py-2 pl-14 nav-item">
                     Currency
                 </a>
-                <a href="/admin/announcement.php" class="hover:bg-bvr21 hover:text-bvr30 flex items-center py-2 pl-14 nav-item">
+                <a href="/admin/announcement" class="hover:bg-bvr21 hover:text-bvr30 flex items-center py-2 pl-14 nav-item">
                     Announcement
                 </a>
                 .
@@ -81,7 +81,7 @@
                 <i class="fas fa-place-of-worship mr-3"></i>
                 Property List
             </a>
-            <a href="/admin/leads.php" class="flex items-center py-2 pl-4">
+            <a href="/admin/leads-list" class="flex items-center py-2 pl-4">
                 <i class="fas fa-school mr-3"></i>
                 Leads
             </a>
@@ -96,13 +96,13 @@
                     Adminisrator
                 </div>
                 <div class="collapse-content p-0">
-                    <a href="/admin/user.php" class="hover:bg-bvr21 hover:text-bvr30 flex items-center py-2 pl-14 nav-item">
+                    <a href="/admin/user-list" class="hover:bg-bvr21 hover:text-bvr30 flex items-center py-2 pl-14 nav-item">
                         User
                     </a>
-                    <a href="/admin/currency.php" class="hover:bg-bvr21 hover:text-bvr30 flex items-center py-2 pl-14 nav-item">
+                    <a href="/admin/currency" class="hover:bg-bvr21 hover:text-bvr30 flex items-center py-2 pl-14 nav-item">
                         Currency
                     </a>
-                    <a href="/admin/announcement.php" class="hover:bg-bvr21 hover:text-bvr30 flex items-center py-2 pl-14 nav-item">
+                    <a href="/admin/announcement" class="hover:bg-bvr21 hover:text-bvr30 flex items-center py-2 pl-14 nav-item">
                         Announcement
                     </a>
                     .

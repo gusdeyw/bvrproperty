@@ -7,10 +7,20 @@ RewriteRule ^admin/dashboard admin/index.php
 RewriteRule ^admin/property-list admin/property-list.php
 RewriteRule ^admin/property-add admin/property-add.php
 RewriteRule ^admin/property-detail admin/property-detail.php
+RewriteRule ^admin/leads-list admin/leads.php
+RewriteRule ^admin/leads-add admin/leads-add.php
+RewriteRule ^admin/leads-detail admin/leads-detail.php
 
 RewriteRule ^admin/blog-list admin/blog-list.php
 RewriteRule ^admin/blog-add admin/blog-add.php
 RewriteRule ^admin/blog-detail admin/blog-detail.php
+
+RewriteRule ^admin/user-list admin/user.php
+RewriteRule ^admin/user-add admin/user-add.php
+RewriteRule ^admin/user-detail admin/user-detail.php
+RewriteRule ^admin/currency admin/currency.php
+RewriteRule ^admin/announcement admin/announcement.php
+
 RewriteRule ^admin/login admin/login.php
 RewriteRule ^admin/logout admin/logout.php
 

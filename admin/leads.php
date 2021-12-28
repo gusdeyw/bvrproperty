@@ -1,6 +1,6 @@
 <?php include '../admin/layout/header.php'; ?>
 <link rel="stylesheet" href="https://unpkg.com/@themesberg/flowbite@1.2.0/dist/flowbite.min.css" />
-<title>Property List</title>
+<title>Lead List</title>
 </head>
 
 <body class="bg-gray-100 font-sans flex text-black">
@@ -15,7 +15,7 @@
                     Lead List
                 </p>
                 <div class="flex ml-auto bg-white rounded-lg hover:bg-bvr20 hover:text-white text-bvr20">
-                    <a href="leads-add.php" class="px-4 py-2 flex">
+                    <a href="leads-add" class="px-4 py-2 flex">
                         <i class="fas fa-plus-circle mt-1 mr-1"></i>
                         <p>Add New Lead</p>
                     </a>
@@ -73,10 +73,9 @@
                             New
                         </div>
                         <div class="flex">
-                            <div class="w-max rounded-md px-3 py-1 bg-blue-700 text-white cursor-pointer" onclick="location.href='leads-detail.php';"><i class="fas fa-edit"></i></div>
+                            <div class="w-max rounded-md px-3 py-1 bg-blue-700 text-white cursor-pointer" onclick="location.href='leads-detail';"><i class="fas fa-edit"></i></div>
                             <div class="w-max ml-2 rounded-md px-3 py-1 bg-red-700 text-white" data-modal-toggle="popup-modal"><i class="fas fa-trash-alt"></i></div>
-           
-
+        
                             <!-- Delete Product Modal -->
                             <div class="hidden overflow-y-auto overflow-x-hidden fixed right-0 left-0 top-4 z-50 justify-center items-center md:inset-0 h-modal sm:h-full" id="popup-modal">
                                 <div class="relative px-4 w-full max-w-md h-full md:h-auto">

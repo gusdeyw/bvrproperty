@@ -1,5 +1,5 @@
 <?php include '../admin/layout/header.php'; ?>
-<title>User Detail</title>
+<title>User Add</title>
 </head>
 
 <body class="bg-gray-100 font-sans flex text-black">
@@ -11,7 +11,7 @@
             <main class="w-full flex-grow px-4 py-8 sm:p-8">
                 <div class="flex w-full">
                     <p class="text-xl font-semibold text-gray-700 items-bottom my-auto">
-                        User Detail
+                        User Add
                     </p>
                 </div>
                 <div class="bg-white rounded-lg mt-5 px-10 py-7">

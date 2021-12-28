@@ -15,7 +15,7 @@
                 </p>
 
                 <div class="flex ml-auto bg-white rounded-lg hover:bg-bvr20 hover:text-white text-bvr20">
-                    <a href="user-add.php" class="px-4 py-2 flex">
+                    <a href="user-add" class="px-4 py-2 flex">
                         <i class="fas fa-plus-circle mt-1 mr-1"></i>
                         <p>Add New User</p>
                     </a>
@@ -39,7 +39,7 @@
             <div class="bg-white mt-3">
                 <!-- Hasil 1 -->
                 <div class="pt-3 bg-white hover:bg-gray-200 lg:px-6">
-                    <a href="./user-detail.php" class="hover:bg-gray-100">
+                    <a href="./user-detail" class="hover:bg-gray-100">
                         <div class="mx-6 lg:mx-0 grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-5 mt-5">
                             <div class="col-span-1">
                                 Yoga
@@ -59,7 +59,7 @@
                 </div>
                 <!-- Hasil 1 -->
                 <div class="pt-3 bg-white hover:bg-gray-200 lg:px-6">
-                    <a href="./user-detail.php" class="hover:bg-gray-100">
+                    <a href="./user-detail" class="hover:bg-gray-100">
                         <div class="mx-6 lg:mx-0  grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-5 mt-5">
                             <div class="col-span-1">
                                 Yoga
@@ -79,7 +79,7 @@
                 </div>
                 <!-- Hasil 2 -->
                 <div class="pt-3 bg-white hover:bg-gray-200 lg:px-6">
-                    <a href="./user-detail.php" class="hover:bg-gray-100">
+                    <a href="./user-detail" class="hover:bg-gray-100">
                         <div class="mx-6 lg:mx-0 grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-5 mt-5">
                             <div class="col-span-1">
                                 Yoga
