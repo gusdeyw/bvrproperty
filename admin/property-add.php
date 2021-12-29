@@ -77,7 +77,6 @@
                         <a onclick="pricing()" id="pricing2" class="flex-1 cursor-pointer px-4 py-2 border-t-2 border-l-2 border-r-2 bg-white border-gray-500  hover:text-bvr20 hover:border-bvr30 rounded-t-lg text-center">
                             Pricing
                         </a>
-
                     </div>
                     <div class="bg-white flex lg:flex-1 text-gray-500">
                         <!--  -->
