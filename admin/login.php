@@ -27,7 +27,7 @@ if (isset($_POST["login"])) {
             <div class="flex justify-center">
                 <img class="mb-5 w-64" src="/public/images/logo-black.png">
             </div>
-            <h3 class="text-2xl font-bold text-center">Leading real estate companies of the world</h3>
+            
             <form method="POST" action="">
                 <div class="mt-4">
                     <div>

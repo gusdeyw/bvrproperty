@@ -98,14 +98,20 @@
                 <!-- Dropdown MinBedroom -->
                 <select class="ml-5 px-4 border-gray-300 border-2">
                     <option>Min Bedroom</option>
-                    <option>Sample</option>
-                    <option>Sample</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
                 </select>
                 <!-- Dropdown Max Bed -->
                 <select class="px-4 border-gray-300 border-2">
                     <option>Max Bedroom</option>
-                    <option>Sample</option>
-                    <option>Sample</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
                 </select>
             </div>
             <!-- Form 2 -->
